@@ -1,6 +1,23 @@
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');
 
 body {
   background-color: black;
   color: white;
+  font-family: 'K2D', sans-serif;
+}
+
+#root {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+section {
+  //height: 100vh;
 }

@@ -3,11 +3,11 @@ Error: File to import not found or unreadable: node_modules/bootstrap/scss/boots
         on line 1 of App.scss
 
 1: @import "node_modules/bootstrap/scss/bootstrap";
-2: 
-3: body {
-4:   background-color: black;
-5:   color: white;
-6: }
+2: @import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');
+3: 
+4: body {
+5:   background-color: black;
+6:   color: white;
 
 Backtrace:
 App.scss:1
@@ -48,4 +48,4 @@ C:/Ruby30-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: node_modules/bootstrap/scss/bootstrap.\A         on line 1 of App.scss\A \A 1: @import \"node_modules/bootstrap/scss/bootstrap\";\A 2: \A 3: body {\A 4:   background-color: black;\A 5:   color: white;\A 6: }"; }
+  content: "Error: File to import not found or unreadable: node_modules/bootstrap/scss/bootstrap.\A         on line 1 of App.scss\A \A 1: @import \"node_modules/bootstrap/scss/bootstrap\";\A 2: @import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');\A 3: \A 4: body {\A 5:   background-color: black;\A 6:   color: white;"; }

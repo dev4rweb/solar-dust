@@ -1,0 +1,846 @@
+{
+  "skins": [
+    {
+      "image": "body1.png",
+      "name": "Dark Elf",
+      "rarity": "uncommon",
+      "count_percent": "26.67"
+    },
+    {
+      "image": "body2.png",
+      "name": "Wood Elf",
+      "rarity": "uncommon",
+      "count_percent": "26.16"
+    },
+    {
+      "image": "body3.png",
+      "name": "Nomadic Elf",
+      "rarity": "uncommon",
+      "count_percent": "27.38"
+    },
+    {
+      "image": "body4.png",
+      "name": "Half-Demon Elf",
+      "rarity": "legendary",
+      "count_percent": "2.44"
+    },
+    {
+      "image": "body5.png",
+      "name": "Undead Elf",
+      "rarity": "legendary",
+      "count_percent": "3.03"
+    },
+    {
+      "image": "body6.png",
+      "name": "Cyber Elf",
+      "rarity": "epic",
+      "count_percent": "5.10"
+    },
+    {
+      "image": "body7.png",
+      "name": "Elf Dryad",
+      "rarity": "rare",
+      "count_percent": "9.22"
+    }
+  ],
+  "hairs": [
+    {
+      "image": "hairless.png",
+      "name": "hairless",
+      "rarity": "rare",
+      "count_percent": "3.73"
+    },
+    {
+      "image": "hair1.png",
+      "name": "Royal Geisha",
+      "rarity": "rare",
+      "count_percent": "4.69"
+    },
+    {
+      "image": "hair2.png",
+      "name": "Bloody Mary",
+      "rarity": "rare",
+      "count_percent": "5.71"
+    },
+    {
+      "image": "hair3.png",
+      "name": "Golden Fairy",
+      "rarity": "rare",
+      "count_percent": "5.36"
+    },
+    {
+      "image": "hair4.png",
+      "name": "Viking Mother",
+      "rarity": "uncommon",
+      "count_percent": "6.44"
+    },
+    {
+      "image": "hair5.png",
+      "name": "Lailu Dalas",
+      "rarity": "uncommon",
+      "count_percent": "7.40"
+    },
+    {
+      "image": "hair6.png",
+      "name": "Neon Goddess",
+      "rarity": "uncommon",
+      "count_percent": "7.02"
+    },
+    {
+      "image": "hair7.png",
+      "name": "Steel Android",
+      "rarity": "uncommon",
+      "count_percent": "8.06"
+    },
+    {
+      "image": "hair8.png",
+      "name": "Lovely Rainbow",
+      "rarity": "legendary",
+      "count_percent": "0.52"
+    },
+    {
+      "image": "hair9.png",
+      "name": "Red Countess",
+      "rarity": "rare",
+      "count_percent": "5.82"
+    },
+    {
+      "image": "hair10.png",
+      "name": "Lovely Mermaid",
+      "rarity": "rare",
+      "count_percent": "5.33"
+    },
+    {
+      "image": "hair11.png",
+      "name": "Dryad Style",
+      "rarity": "rare",
+      "count_percent": "5.11"
+    },
+    {
+      "image": "hair12.png",
+      "name": "Dark Warrior",
+      "rarity": "uncommon",
+      "count_percent": "6.85"
+    },
+    {
+      "image": "hair13.png",
+      "name": "Sweet Chan",
+      "rarity": "rare",
+      "count_percent": "5.02"
+    },
+    {
+      "image": "hair14.png",
+      "name": "Little Minx",
+      "rarity": "rare",
+      "count_percent": "4.69"
+    },
+    {
+      "image": "hair15.png",
+      "name": "Ash Duchess",
+      "rarity": "rare",
+      "count_percent": "4.77"
+    },
+    {
+      "image": "hair16.png",
+      "name": "Rainbow Duchess",
+      "rarity": "legendary",
+      "count_percent": "0.45"
+    },
+    {
+      "image": "hair17.png",
+      "name": "Elven Queen Style",
+      "rarity": "rare",
+      "count_percent": "5.95"
+    },
+    {
+      "image": "hair18.png",
+      "name": "Elven Princess Style",
+      "rarity": "rare",
+      "count_percent": "5.65"
+    },
+    {
+      "image": "hair71.png",
+      "name": "Crown of the Dryad",
+      "rarity": "epic",
+      "count_percent": "1.43"
+    }
+  ],
+  "eyes": [
+    {
+      "image": "default_eyes.png",
+      "name": "Steel eyes",
+      "rarity": "uncommon",
+      "count_percent": "9.21"
+    },
+    {
+      "image": "eyes1.png",
+      "name": "Amazon Eyes",
+      "rarity": "uncommon",
+      "count_percent": "8.99"
+    },
+    {
+      "image": "eyes2.png",
+      "name": "Snake Eyes",
+      "rarity": "uncommon",
+      "count_percent": "9.02"
+    },
+    {
+      "image": "eyes3.png",
+      "name": "Dragon Eyes",
+      "rarity": "uncommon",
+      "count_percent": "9.23"
+    },
+    {
+      "image": "eyes4.png",
+      "name": "Jaguar Eyes",
+      "rarity": "uncommon",
+      "count_percent": "9.02"
+    },
+    {
+      "image": "eyes5.png",
+      "name": "Banshee Eyes",
+      "rarity": "legendary",
+      "count_percent": "0.12"
+    },
+    {
+      "image": "eyes6.png",
+      "name": "Ice Dragon Eyes",
+      "rarity": "uncommon",
+      "count_percent": "9.37"
+    },
+    {
+      "image": "eyes7.png",
+      "name": "Night Cat Eyes",
+      "rarity": "uncommon",
+      "count_percent": "9.46"
+    },
+    {
+      "image": "eyes8.png",
+      "name": "Emerald Eyes",
+      "rarity": "uncommon",
+      "count_percent": "9.05"
+    },
+    {
+      "image": "eyes9.png",
+      "name": "Spirit Eyes",
+      "rarity": "uncommon",
+      "count_percent": "9.18"
+    },
+    {
+      "image": "eyes10.png",
+      "name": "Cobra Eyes",
+      "rarity": "uncommon",
+      "count_percent": "9.21"
+    },
+    {
+      "image": "eyes51.png",
+      "name": "Zombie Eyes",
+      "rarity": "rare",
+      "count_percent": "2.34"
+    },
+    {
+      "image": "eyes52.png",
+      "name": "Butcher Eyes",
+      "rarity": "epic",
+      "count_percent": "0.70"
+    },
+    {
+      "image": "eyes61.png",
+      "name": "Cyber Eyes",
+      "rarity": "rare",
+      "count_percent": "2.58"
+    },
+    {
+      "image": "eyes62.png",
+      "name": "Cyber Eyes mod2",
+      "rarity": "rare",
+      "count_percent": "1.60"
+    },
+    {
+      "image": "eyes63.png",
+      "name": "Cyber Eyes mod3",
+      "rarity": "epic",
+      "count_percent": "0.92"
+    }
+  ],
+  "charms": [
+    {
+      "image": "neckless1.png",
+      "name": "Banshee Amulet",
+      "rarity": "epic",
+      "count_percent": "2.17"
+    },
+    {
+      "image": "neckless2.png",
+      "name": "Collar of the Mistress",
+      "rarity": "rare",
+      "count_percent": "5.69"
+    },
+    {
+      "image": "neckless3.png",
+      "name": "Medallion of the Aristocrat",
+      "rarity": "rare",
+      "count_percent": "6.35"
+    },
+    {
+      "image": "neckless4.png",
+      "name": "Red Pepper",
+      "rarity": "rare",
+      "count_percent": "6.28"
+    },
+    {
+      "image": "neckless6.png",
+      "name": "Hipster Necklace",
+      "rarity": "rare",
+      "count_percent": "6.15"
+    },
+    {
+      "image": "neckless7.png",
+      "name": "Elven Duchess Necklace",
+      "rarity": "rare",
+      "count_percent": "6.17"
+    },
+    {
+      "image": "neckless8.png",
+      "name": "A Rainbow for All Time",
+      "rarity": "epic",
+      "count_percent": "2.98"
+    },
+    {
+      "image": "neckless9.png",
+      "name": "Uncanny Mage's Necklace",
+      "rarity": "rare",
+      "count_percent": "6.55"
+    },
+    {
+      "image": "neckless61.png",
+      "name": "Cyber Filter",
+      "rarity": "rare",
+      "count_percent": "5.10"
+    },
+    {
+      "image": "neckless71.png",
+      "name": "High Dryad's Necklace",
+      "rarity": "epic",
+      "count_percent": "1.07"
+    }
+  ],
+  "armors": [
+    {
+      "image": "armor1.png",
+      "name": "Dark Hunter Armor",
+      "rarity": "uncommon",
+      "count_percent": "7.60"
+    },
+    {
+      "image": "armor2.png",
+      "name": "Pirate Doublet",
+      "rarity": "rare",
+      "count_percent": "4.25"
+    },
+    {
+      "image": "armor3.png",
+      "name": "The Mistress's Joy",
+      "rarity": "uncommon",
+      "count_percent": "7.79"
+    },
+    {
+      "image": "armor4.png",
+      "name": "Fire Dragon Heart",
+      "rarity": "uncommon",
+      "count_percent": "7.46"
+    },
+    {
+      "image": "armor6.png",
+      "name": "Stormtrooper Armor",
+      "rarity": "uncommon",
+      "count_percent": "7.88"
+    },
+    {
+      "image": "armor5.png",
+      "name": "Legionary Plate",
+      "rarity": "uncommon",
+      "count_percent": "7.45"
+    },
+    {
+      "image": "armor7.png",
+      "name": "Lady in Black",
+      "rarity": "uncommon",
+      "count_percent": "7.68"
+    },
+    {
+      "image": "armor8.png",
+      "name": "Android Dream",
+      "rarity": "uncommon",
+      "count_percent": "8.01"
+    },
+    {
+      "image": "armor9.png",
+      "name": "Soul of the Prairie",
+      "rarity": "uncommon",
+      "count_percent": "7.84"
+    },
+    {
+      "image": "armor10.png",
+      "name": "Aristocrat Dress",
+      "rarity": "uncommon",
+      "count_percent": "7.71"
+    },
+    {
+      "image": "armor11.png",
+      "name": "Green Basilisk Armor",
+      "rarity": "rare",
+      "count_percent": "3.77"
+    },
+    {
+      "image": "armor12.png",
+      "name": "Ruby Passion Armor",
+      "rarity": "epic",
+      "count_percent": "2.92"
+    },
+    {
+      "image": "armor13.png",
+      "name": "Solana's Red Dream",
+      "rarity": "uncommon",
+      "count_percent": "8.26"
+    },
+    {
+      "image": "armor14.png",
+      "name": "Soul of Hipster",
+      "rarity": "uncommon",
+      "count_percent": "8.33"
+    },
+    {
+      "image": "armor81.png",
+      "name": "Power of the Green Phoenix",
+      "rarity": "epic",
+      "count_percent": "1.74"
+    },
+    {
+      "image": "armor91.png",
+      "name": "Demon Queen Armor",
+      "rarity": "legendary",
+      "count_percent": "0.70"
+    },
+    {
+      "image": "cyber_default.png",
+      "name": "Cyber Body",
+      "rarity": "legendary",
+      "count_percent": "0.61"
+    }
+  ],
+  "weapons": [
+    {
+      "image": "back1.png",
+      "name": "Deadly Katanas",
+      "rarity": "uncommon",
+      "count_percent": "7.44"
+    },
+    {
+      "image": "back2.png",
+      "name": "Harpoon of Fate",
+      "rarity": "uncommon",
+      "count_percent": "7.17"
+    },
+    {
+      "image": "back3.png",
+      "name": "Mistress Toys",
+      "rarity": "rare",
+      "count_percent": "4.60"
+    },
+    {
+      "image": "back4.png",
+      "name": "Red Dragon's Claw",
+      "rarity": "uncommon",
+      "count_percent": "7.78"
+    },
+    {
+      "image": "back6.png",
+      "name": "Halberd 'Touch of Death'",
+      "rarity": "uncommon",
+      "count_percent": "7.97"
+    },
+    {
+      "image": "back7.png",
+      "name": "Tears of the Bloody Demon",
+      "rarity": "uncommon",
+      "count_percent": "7.86"
+    },
+    {
+      "image": "back8.png",
+      "name": "Undertaker's Ax",
+      "rarity": "uncommon",
+      "count_percent": "7.53"
+    },
+    {
+      "image": "back10.png",
+      "name": "Twin Blades 'Angel's Whisper'",
+      "rarity": "uncommon",
+      "count_percent": "7.82"
+    },
+    {
+      "image": "back12.png",
+      "name": "Cure for Head Pain",
+      "rarity": "uncommon",
+      "count_percent": "7.49"
+    },
+    {
+      "image": "back13.png",
+      "name": "Rifle 'Eye of the Eagle'",
+      "rarity": "uncommon",
+      "count_percent": "7.27"
+    },
+    {
+      "image": "back14.png",
+      "name": "Mad Steel",
+      "rarity": "uncommon",
+      "count_percent": "7.77"
+    },
+    {
+      "image": "back15.png",
+      "name": "Braids 'Stone Jungle'",
+      "rarity": "uncommon",
+      "count_percent": "7.43"
+    },
+    {
+      "image": "back81.png",
+      "name": "Green Phoenix Feather",
+      "rarity": "epic",
+      "count_percent": "3.29"
+    },
+    {
+      "image": "back82.png",
+      "name": "Green Phoenix Wings",
+      "rarity": "epic",
+      "count_percent": "2.93"
+    },
+    {
+      "image": "back83.png",
+      "name": "Swords 'Green Phoenix'",
+      "rarity": "epic",
+      "count_percent": "2.90"
+    },
+    {
+      "image": "back91.png",
+      "name": "Elven Queen's Swords",
+      "rarity": "legendary",
+      "count_percent": "0.81"
+    },
+    {
+      "image": "back92.png",
+      "name": "Halberd 'Word of the Queen'",
+      "rarity": "legendary",
+      "count_percent": "0.82"
+    },
+    {
+      "image": "back93.png",
+      "name": "Elven Queen's Blades",
+      "rarity": "legendary",
+      "count_percent": "0.67"
+    },
+    {
+      "image": "back41.png",
+      "name": "Demon Queen Wings",
+      "rarity": "legendary",
+      "count_percent": "0.19"
+    },
+    {
+      "image": "back71.png",
+      "name": "Roots 'Strength of the Dryad'",
+      "rarity": "legendary",
+      "count_percent": "0.26"
+    }
+  ],
+  "head": [
+    {
+      "image": "hat1.png",
+      "name": "Pirate Tricorne",
+      "rarity": "rare",
+      "count_percent": "2.96"
+    },
+    {
+      "image": "hat2.png",
+      "name": "Demon's Circlet",
+      "rarity": "rare",
+      "count_percent": "3.21"
+    },
+    {
+      "image": "hat3.png",
+      "name": "Comfortable Cat Mask",
+      "rarity": "legendary",
+      "count_percent": "0.89"
+    },
+    {
+      "image": "hat4.png",
+      "name": "Comfortable Bunny Mask",
+      "rarity": "legendary",
+      "count_percent": "0.84"
+    },
+    {
+      "image": "hat6.png",
+      "name": "Crown of the Elven Aristocrat",
+      "rarity": "rare",
+      "count_percent": "2.82"
+    },
+    {
+      "image": "hat7.png",
+      "name": "Demon Lady Crown",
+      "rarity": "rare",
+      "count_percent": "3.19"
+    },
+    {
+      "image": "hat8.png",
+      "name": "Assassin's Hood",
+      "rarity": "epic",
+      "count_percent": "1.37"
+    },
+    {
+      "image": "hat9.png",
+      "name": "Hot Peaked Cap",
+      "rarity": "rare",
+      "count_percent": "2.75"
+    },
+    {
+      "image": "hat10.png",
+      "name": "Elven Queen's Wreath",
+      "rarity": "rare",
+      "count_percent": "2.75"
+    },
+    {
+      "image": "hat11.png",
+      "name": "Shogun's Helmet",
+      "rarity": "legendary",
+      "count_percent": "0.50"
+    },
+    {
+      "image": "hat41.png",
+      "name": "Demon Queen Horns",
+      "rarity": "legendary",
+      "count_percent": "0.50"
+    },
+    {
+      "image": "hat42.png",
+      "name": "Horns of the Bull-Demon",
+      "rarity": "legendary",
+      "count_percent": "0.56"
+    },
+    {
+      "image": "hat43.png",
+      "name": "Dragon Horns",
+      "rarity": "legendary",
+      "count_percent": "0.29"
+    },
+    {
+      "image": "hat71.png",
+      "name": "Bone Dragon Heart",
+      "rarity": "epic",
+      "count_percent": "1.43"
+    }
+  ],
+  "glasses": [
+    {
+      "image": "glasses1.png",
+      "name": "Turquoise Ghost",
+      "rarity": "rare",
+      "count_percent": "5.48"
+    },
+    {
+      "image": "glasses2.png",
+      "name": "Assault Goggles",
+      "rarity": "rare",
+      "count_percent": "5.79"
+    },
+    {
+      "image": "glasses3.png",
+      "name": "Pink Glasses",
+      "rarity": "rare",
+      "count_percent": "5.86"
+    },
+    {
+      "image": "glasses4.png",
+      "name": "Steampunk Glasses",
+      "rarity": "epic",
+      "count_percent": "1.35"
+    },
+    {
+      "image": "glasses5.png",
+      "name": "Pirate Headband",
+      "rarity": "rare",
+      "count_percent": "5.91"
+    },
+    {
+      "image": "glasses6.png",
+      "name": "Mysterious Lady Mask",
+      "rarity": "rare",
+      "count_percent": "6.24"
+    },
+    {
+      "image": "glasses7.png",
+      "name": "Arnie's Red Eye",
+      "rarity": "epic",
+      "count_percent": "1.34"
+    }
+  ],
+  "modifications": [
+    {
+      "image": "modification1.png",
+      "name": "Heroic Scar",
+      "rarity": "rare",
+      "count_percent": "10.28"
+    },
+    {
+      "image": "modification2.png",
+      "name": "Runes of Power",
+      "rarity": "rare",
+      "count_percent": "10.61"
+    },
+    {
+      "image": "modification3.png",
+      "name": "Cyber Implants",
+      "rarity": "rare",
+      "count_percent": "10.22"
+    },
+    {
+      "image": "modification4.png",
+      "name": "Hi-Fi Cyber Implants",
+      "rarity": "epic",
+      "count_percent": "1.70"
+    },
+    {
+      "image": "modification5.png",
+      "name": "Mark of Necromancer",
+      "rarity": "epic",
+      "count_percent": "3.56"
+    },
+    {
+      "image": "modification6.png",
+      "name": "Biker Tattoos",
+      "rarity": "rare",
+      "count_percent": "10.81"
+    },
+    {
+      "image": "modification7.png",
+      "name": "Smile Demons",
+      "rarity": "legendary",
+      "count_percent": "0.66"
+    },
+    {
+      "image": "modification51.png",
+      "name": "Zombie Mark",
+      "rarity": "legendary",
+      "count_percent": "0.85"
+    },
+    {
+      "image": "modification52.png",
+      "name": "Butcher's Mark",
+      "rarity": "epic",
+      "count_percent": "2.18"
+    },
+    {
+      "image": "modification61.png",
+      "name": "Eternal Implants",
+      "rarity": "rare",
+      "count_percent": "5.10"
+    },
+    {
+      "image": "modification_dryad_default.png",
+      "name": "Dryad Skin",
+      "rarity": "rare",
+      "count_percent": "9.22"
+    }
+  ],
+  "earrings": [
+    {
+      "image": "ring1.png",
+      "name": "Defiant Ring",
+      "rarity": "rare",
+      "count_percent": "5.64"
+    },
+    {
+      "image": "ring2.png",
+      "name": "Coral Reef Earring",
+      "rarity": "rare",
+      "count_percent": "5.83"
+    },
+    {
+      "image": "ring3.png",
+      "name": "Diamond Earrings",
+      "rarity": "rare",
+      "count_percent": "5.82"
+    }
+  ],
+  "backgrounds": [
+    {
+      "image": "background1.png",
+      "name": "Dark Night",
+      "rarity": "rare",
+      "count_percent": "8.23"
+    },
+    {
+      "image": "background2.png",
+      "name": "Green Haze",
+      "rarity": "rare",
+      "count_percent": "7.78"
+    },
+    {
+      "image": "background3.png",
+      "name": "Neon Light",
+      "rarity": "rare",
+      "count_percent": "8.15"
+    },
+    {
+      "image": "background4.png",
+      "name": "Red Dawn",
+      "rarity": "rare",
+      "count_percent": "8.47"
+    },
+    {
+      "image": "background6.png",
+      "name": "Light of the Deep Sea",
+      "rarity": "uncommon",
+      "count_percent": "13.63"
+    },
+    {
+      "image": "background7.png",
+      "name": "Orange Hope",
+      "rarity": "uncommon",
+      "count_percent": "13.57"
+    },
+    {
+      "image": "background8.png",
+      "name": "Purple Mood",
+      "rarity": "uncommon",
+      "count_percent": "14.13"
+    },
+    {
+      "image": "background9.png",
+      "name": "Ocean Blue",
+      "rarity": "uncommon",
+      "count_percent": "13.27"
+    },
+    {
+      "image": "background10.png",
+      "name": "Emerald Glitter",
+      "rarity": "epic",
+      "count_percent": "5.58"
+    },
+    {
+      "image": "background11.png",
+      "name": "Desert Sun",
+      "rarity": "epic",
+      "count_percent": "5.83"
+    },
+    {
+      "image": "background12.png",
+      "name": "Solana Summer",
+      "rarity": "legendary",
+      "count_percent": "0.67"
+    },
+    {
+      "image": "background13.png",
+      "name": "Demon Portal",
+      "rarity": "legendary",
+      "count_percent": "0.69"
+    }
+  ]
+}

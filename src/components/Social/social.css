@@ -1,0 +1,22 @@
+.social {
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none; }
+  .social .social_item {
+    margin-right: 15px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+    .social .social_item:hover {
+      -webkit-transform: scale(1.2, 1.2);
+      -moz-transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+      -o-transform: scale(1.2, 1.2);
+      transform: scale(1.2, 1.2); }
+
+/*# sourceMappingURL=social.css.map */
