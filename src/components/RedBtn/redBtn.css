@@ -1,0 +1,23 @@
+.red_btn {
+  width: 100%;
+  max-width: 328px;
+  height: 84px;
+  background: linear-gradient(93.35deg, #AC0B0B 0%, #F97A33 99.41%);
+  box-shadow: 0px 0px 20px #C20000, inset 0px -8px 0px #A31818;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 39px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 1; }
+  .red_btn:hover {
+    box-shadow: 0px 0px 30px #C20000, inset 0px -8px 0px #A31818; }
+  .red_btn:focus, .red_btn:active {
+    box-shadow: 0px 0px 0px #C20000, inset 0px -8px 0px #A31818; }
+
+/*# sourceMappingURL=redBtn.css.map */
