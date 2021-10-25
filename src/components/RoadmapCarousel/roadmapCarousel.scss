@@ -1,0 +1,71 @@
+.roadmap_carousel{
+  .carousel-container{
+    min-height: 490px;
+
+    .mc_item {
+      width: 100%;
+      max-width: 524px;
+      height: 166px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .number{
+        background: -webkit-linear-gradient(#AC0B0B 36.1%, #F97A33 63.73%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100px;
+        line-height: 116px;
+        margin-right: 39px;
+      }
+      .content{
+        width: 100%;
+        .title{
+          width: 415px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 35px;
+        }
+        .text{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 21px;
+          width: 100%;
+          max-width: 324px;
+        }
+      }
+    }
+
+  }
+
+  .custom-dot-list-style{
+    width: 100%;
+    max-width: 540px;
+    background: #070707;
+    opacity: 0.7;
+    border: 1px solid #222222;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .react-multi-carousel-dot button{
+    display: none;
+  }
+
+  .react-multi-carousel-dot--active button{
+    display: inline-block;
+    width: 69px;
+    height: 20px;
+    background: linear-gradient(93.35deg, #AC0B0B 0%, #F97A33 99.41%);
+    box-shadow: 0px 0px 20px #C20000, inset 0px -4px 0px #A31818;
+    border-radius: 10px;
+    opacity: 1;
+  }
+}

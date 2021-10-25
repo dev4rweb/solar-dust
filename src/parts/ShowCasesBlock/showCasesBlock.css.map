@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACT,UAAU,EAAE,KAAK;EACjB,cAAE;IACA,UAAU,EAAE,MAAM;IAClB,aAAa,EAAE,IAAI",
+"sources": ["showCasesBlock.scss"],
+"names": [],
+"file": "showCasesBlock.css"
+}

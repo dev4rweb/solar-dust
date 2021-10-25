@@ -1,0 +1,51 @@
+.news_bock{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 124px;
+
+  .cloud{
+    position: absolute;
+    bottom: -160px;
+    left: 0;
+  }
+
+
+  .card_wrapper{
+    position: static;
+    display: flex;
+    justify-content: center;
+    .card{
+      max-width: 1110px;
+      width: 100%;
+      background-color: transparent;
+
+      .card_box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .books{
+          width: 438px;
+        }
+        .content_block{
+          max-width: 630px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          h2{
+            margin-bottom: 42px;
+          }
+          p{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 52px;
+            margin-bottom: 72px;
+          }
+        }
+
+      }
+
+    }
+  }
+}

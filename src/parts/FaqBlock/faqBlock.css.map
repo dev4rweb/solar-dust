@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACT,UAAU,EAAE,IAAI;EAChB,QAAQ,EAAE,QAAQ;EAClB,aAAE;IACA,UAAU,EAAE,MAAM;IAClB,cAAc,EAAE,SAAS;IACzB,aAAa,EAAE,IAAI;EAGrB,qBAAU;IACR,QAAQ,EAAE,QAAQ;IAClB,MAAM,EAAE,MAAM;IACd,KAAK,EAAE,CAAC",
+"sources": ["faqBlock.scss"],
+"names": [],
+"file": "faqBlock.css"
+}

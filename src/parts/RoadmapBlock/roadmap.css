@@ -1,0 +1,11 @@
+.roadmap {
+  margin-top: 77px;
+  position: relative; }
+  .roadmap h2 {
+    text-align: center;
+    text-transform: uppercase; }
+  .roadmap .map {
+    width: 100%;
+    margin-top: -50px; }
+
+/*# sourceMappingURL=roadmap.css.map */

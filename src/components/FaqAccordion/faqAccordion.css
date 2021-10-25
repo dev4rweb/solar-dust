@@ -1,0 +1,40 @@
+.faq_accordion {
+  display: flex;
+  justify-content: center; }
+  .faq_accordion .accordion {
+    width: 100%;
+    max-width: 1110px; }
+    .faq_accordion .accordion .accordion-item {
+      background-color: black;
+      color: white; }
+      .faq_accordion .accordion .accordion-item .accordion-header {
+        margin-bottom: 12px;
+        opacity: .9; }
+        .faq_accordion .accordion .accordion-item .accordion-header .accordion-button, .faq_accordion .accordion .accordion-item .accordion-header [aria-expanded=true] {
+          color: white;
+          height: 73px;
+          background: #070707;
+          opacity: 0.7;
+          border: 1px solid #222222;
+          box-sizing: border-box;
+          box-shadow: 0px 4px 20px #000000;
+          border-radius: 20px;
+          font-family: 'K2D', sans-serif;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 24px;
+          line-height: 31px;
+          opacity: 1; }
+          .faq_accordion .accordion .accordion-item .accordion-header .accordion-button:after, .faq_accordion .accordion .accordion-item .accordion-header [aria-expanded=true]:after {
+            background-image: url(../../assets/img/accordion-minus.png);
+            opacity: 1; }
+        .faq_accordion .accordion .accordion-item .accordion-header [aria-expanded=false]:after {
+          background-image: url(../../assets/img/accordion-plus.png);
+          opacity: 1; }
+        .faq_accordion .accordion .accordion-item .accordion-header .accordion-body p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 23px; }
+
+/*# sourceMappingURL=faqAccordion.css.map */

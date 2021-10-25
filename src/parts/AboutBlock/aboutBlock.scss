@@ -10,7 +10,7 @@
   url(../../assets/img/about-bg.png) no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 984px;
+  height: 775px;
 
   .dragon {
     position: absolute;
@@ -20,7 +20,7 @@
 
   .about_clouds {
     position: absolute;
-    bottom: 0;
+    bottom: -230px;
     left: 0;
     width: 862px;
     height: 558px;
@@ -31,7 +31,7 @@
 
   .about_content_wrapper {
     margin-top: 150px;
-    margin-bottom: 122px;
+    //margin-bottom: 122px;
     width: 100%;
     max-width: 1110px;
     display: flex;
@@ -83,6 +83,12 @@
     }
   }
 
+
+}
+
+.about_grid{
+  display: flex;
+  justify-content: center;
   .about_grid_wrapper{
     width: 100%;
     max-width: 1110px;

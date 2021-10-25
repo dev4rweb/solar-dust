@@ -25,12 +25,18 @@ const Navigation = () => {
             </Nav.Item>
             <Nav.Item as="li">
                 <Nav.Link href="/#roadmap">
-                    <span>RARITY</span>
+                    <span>ROADMAP</span>
                     <hr className="underline"/>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
                 <Nav.Link href="/#parity">
+                    <span>RARITY</span>
+                    <hr className="underline"/>
+                </Nav.Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+                <Nav.Link href="/#news">
                     <span>NEWS</span>
                     <hr className="underline"/>
                 </Nav.Link>

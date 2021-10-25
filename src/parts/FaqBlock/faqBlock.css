@@ -1,0 +1,13 @@
+.faq_block {
+  margin-top: 85px;
+  position: relative; }
+  .faq_block h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px; }
+  .faq_block .faq_cloud {
+    position: absolute;
+    bottom: -340px;
+    right: 0; }
+
+/*# sourceMappingURL=faqBlock.css.map */
