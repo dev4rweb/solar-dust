@@ -1,0 +1,84 @@
+.main_block {
+  background: url(../../../assets/img/main-block-bg.png) no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1080px;
+
+  .logo {
+    width: 100%;
+    max-width: 429px;
+    height: auto;
+    margin-top: 200px;
+  }
+
+  .cloud_one {
+    width: 100%;
+    position: absolute;
+    height: 824px;
+    top: 700px;
+  }
+}
+
+.main_content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .content_box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 64px;
+
+    .main_girl {
+      width: 100%;
+      max-width: 445px;
+      height: auto;
+    }
+
+    .content {
+      background: #070707;
+      opacity: 0.7;
+      border: 1px solid #222222;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 20px #000000;
+      border-radius: 0 20px 20px 0;
+      padding: 38px;
+      margin-left: -20px;
+
+      h3 {
+        width: 100%;
+        max-width: 381px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 69px;
+        opacity: 1;
+      }
+
+      .red_btn {
+        margin-bottom: 31px;
+      }
+    }
+  }
+
+  p{
+    width: 100%;
+    max-width: 600px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+  }
+
+  .clock_wrapper{
+    margin-top: 62px;
+  }
+}
+

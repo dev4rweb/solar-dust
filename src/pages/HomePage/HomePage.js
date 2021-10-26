@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from "../../components/Layout";
-import MainBlock from "../../parts/MainBlock/MainBlock";
-import AboutBlock from "../../parts/AboutBlock/AboutBlock";
-import ShowCasesBlock from "../../parts/ShowCasesBlock/ShowCasesBlock";
-import FaqBlock from "../../parts/FaqBlock/FaqBlock";
-import RoadmapBlock from "../../parts/RoadmapBlock/RoadmapBlock";
-import ParityBlock from "../../parts/ParityBlock/ParityBlock";
-import NewsBlock from "../../parts/NewsBlock/NewsBlock";
+import MainBlock from "../../parts/Home/MainBlock/MainBlock";
+import AboutBlock from "../../parts/Home/AboutBlock/AboutBlock";
+import ShowCasesBlock from "../../parts/Home/ShowCasesBlock/ShowCasesBlock";
+import FaqBlock from "../../parts/Home/FaqBlock/FaqBlock";
+import RoadmapBlock from "../../parts/Home/RoadmapBlock/RoadmapBlock";
+import ParityBlock from "../../parts/Home/ParityBlock/ParityBlock";
+import NewsBlock from "../../parts/Home/NewsBlock/NewsBlock";
 
 const HomePage = () => {
     return (

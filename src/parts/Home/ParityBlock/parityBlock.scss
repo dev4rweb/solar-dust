@@ -1,0 +1,46 @@
+.parity_block{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 24.48%, rgba(0, 0, 0, 0) 46.88%, #000000 78.65%),
+  url(../../../assets/img/parity-bg.png);
+  //transform: matrix(-1, 0, 0, 1, 0, 0);
+
+  .card_wrapper{
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    .card_box{
+      width: 100%;
+      max-width: 1110px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      .left_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h2{
+          text-transform: uppercase;
+        }
+        .parity_list{
+          list-style-type: none;
+          padding-left: 0;
+          margin-bottom: 42px;
+          li{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            max-width: 598px;
+            &::before{
+              content: url('../../../assets/img/list-style.png');;
+            }
+          }
+        }
+      }
+      .girl{
+        filter: drop-shadow(0px 0px 20px #000000);
+      }
+    }
+  }
+}

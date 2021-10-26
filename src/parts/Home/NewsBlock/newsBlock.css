@@ -1,0 +1,38 @@
+.news_bock {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 124px; }
+  .news_bock .cloud {
+    position: absolute;
+    bottom: -160px;
+    left: 0; }
+  .news_bock .card_wrapper {
+    position: static;
+    display: flex;
+    justify-content: center; }
+    .news_bock .card_wrapper .card {
+      max-width: 1110px;
+      width: 100%;
+      background-color: transparent; }
+      .news_bock .card_wrapper .card .card_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .news_bock .card_wrapper .card .card_box .books {
+          width: 438px; }
+        .news_bock .card_wrapper .card .card_box .content_block {
+          max-width: 630px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+          .news_bock .card_wrapper .card .card_box .content_block h2 {
+            margin-bottom: 42px;
+            text-transform: uppercase; }
+          .news_bock .card_wrapper .card .card_box .content_block p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 52px;
+            margin-bottom: 72px; }
+
+/*# sourceMappingURL=newsBlock.css.map */

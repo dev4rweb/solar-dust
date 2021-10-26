@@ -1,0 +1,20 @@
+.searching_section{
+  height: 586px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 43.23%, #000000 100%),
+  url(../../assets/img/mint-top-bg.png);
+  position: relative;
+
+  .clouds{
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+  }
+}
+
+.traits_section{
+  margin-top: 100px;
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

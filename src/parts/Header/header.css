@@ -1,8 +1,11 @@
-.header {
-  width: 100%;
-  max-width: 1110px;
+.container {
   display: flex;
-  flex-direction: column;
   justify-content: center; }
+  .container .header {
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
 
 /*# sourceMappingURL=header.css.map */

@@ -1,0 +1,64 @@
+.description_block {
+  position: relative;
+  display: flex;
+  justify-content: center; }
+  .description_block .card {
+    width: 100%;
+    max-width: 1110px;
+    background-color: transparent;
+    margin-top: -250px; }
+    .description_block .card .box_desc {
+      background-color: rgba(7, 7, 7, 0.7);
+      border: 1px solid #222222;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 20px #000000;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between; }
+      .description_block .card .box_desc .avatar_wrapper {
+        position: relative; }
+        .description_block .card .box_desc .avatar_wrapper .btn_wrapper {
+          position: absolute;
+          bottom: -50px;
+          left: 0;
+          right: 0;
+          display: flex;
+          justify-content: center; }
+      .description_block .card .box_desc .content {
+        width: 100%;
+        padding: 35px;
+        background-color: black;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .description_block .card .box_desc .content .title_link {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 35px;
+          text-decoration-line: underline;
+          color: #FFFFFF;
+          margin-bottom: 22px; }
+        .description_block .card .box_desc .content .desc {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 26px; }
+        .description_block .card .box_desc .content .list_desc {
+          margin-bottom: 0;
+          padding-left: 0;
+          list-style-type: none; }
+          .description_block .card .box_desc .content .list_desc .list_item {
+            display: flex;
+            justify-content: space-between; }
+            .description_block .card .box_desc .content .list_desc .list_item span {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 149.5%; }
+            .description_block .card .box_desc .content .list_desc .list_item span.cyan {
+              color: #33F9ED; }
+
+/*# sourceMappingURL=descriptionBlock.css.map */
