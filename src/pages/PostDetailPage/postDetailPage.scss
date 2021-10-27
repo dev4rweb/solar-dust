@@ -1,0 +1,55 @@
+.post_detail {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  .pd_wrapper {
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    flex-direction: column;
+
+    .post_title {
+      width: 100%;
+      max-width: 780px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 46px;
+    }
+
+    .post_date {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 26px;
+    }
+
+    .pd_card {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .pd_card_content {
+        width: 100%;
+        max-width: 540px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+      }
+    }
+
+    .pd_full_content {
+      margin-bottom: 100px;
+      .pdf_title {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      .pdf_content{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

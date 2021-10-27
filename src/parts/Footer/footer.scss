@@ -15,6 +15,20 @@
 
       .footer_logo {
         max-width: 159px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+
+        &:hover {
+          cursor: pointer;
+          -webkit-transform: scale(1.2, 1.2);
+          -moz-transform: scale(1.2, 1.2);
+          -ms-transform: scale(1.2, 1.2);
+          -o-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+        }
       }
 
       .footer_nav {
@@ -26,7 +40,20 @@
         height: 100%;
         justify-content: space-between;
 
-        li{
+        li {
+          -webkit-transition: all .2s;
+          -moz-transition: all .2s;
+          -ms-transition: all .2s;
+          -o-transition: all .2s;
+          transition: all .2s;
+
+          &:hover {
+            -webkit-transform: scale(1.2, 1.2);
+            -moz-transform: scale(1.2, 1.2);
+            -ms-transform: scale(1.2, 1.2);
+            -o-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+          }
 
           a {
             font-style: normal;

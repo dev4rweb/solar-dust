@@ -37,11 +37,11 @@ export const publicRoutes = [
         Component: PostsPage
     },
     {
-        path: PARITY_DETAIL_PAGE + '/:id',
+        path: PARITY_DETAIL_PAGE + '/:prefix/:id',
         Component: ParityDetailPage
     },
     {
-        path: MINT_DETAIL_PAGE + '/:id',
+        path: MINT_DETAIL_PAGE + '/:prefix/:id',
         Component: MintDetailPage
     },
     {

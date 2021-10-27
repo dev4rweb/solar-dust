@@ -10,7 +10,7 @@ import traitsData from '../../assets/traits_for_site/traits.json'
 import TraitsCarousel from "../../components/TraitsCarousel/TraitsCarousel";
 
 const MintsPage = () => {
-    // console.log(traitsData)
+    console.log(traitsData)
 
     return (
         <Layout>
@@ -25,23 +25,33 @@ const MintsPage = () => {
                 <h2>Traits</h2>
                 <div className="skin">
                     <h3>Skin</h3>
-                    <TraitsCarousel data={traitsData.skins} />
+                    <TraitsCarousel data={traitsData.skins} prefix="skins"/>
                 </div>
                 <div className="eyes">
                     <h3>Eyes</h3>
-                    <TraitsCarousel data={traitsData.eyes} />
+                    <TraitsCarousel data={traitsData.eyes} prefix="eyes" />
                 </div>
                 <div className="armor">
                     <h3>Armor</h3>
-                    <TraitsCarousel data={traitsData.armors} />
+                    <TraitsCarousel data={traitsData.armors} prefix="armors" />
                 </div>
                 <div className="weapons">
                     <h3>Weapons</h3>
-                    <TraitsCarousel data={traitsData.weapons} classWith={`wrap_six`} amount={6} />
+                    <TraitsCarousel
+                        data={traitsData.weapons}
+                        classWith={`wrap_six`}
+                        amount={6}
+                        prefix="weapons"
+                    />
                 </div>
                 <div className="erings">
                     <h3>Erings</h3>
-                    <TraitsCarousel data={traitsData.hairs} classWith={`wrap_four`} amount={4} />
+                    <TraitsCarousel
+                        data={traitsData.hairs}
+                        classWith={`wrap_four`}
+                        amount={4}
+                        prefix="hairs"
+                    />
                 </div>
             </div>
         </Layout>

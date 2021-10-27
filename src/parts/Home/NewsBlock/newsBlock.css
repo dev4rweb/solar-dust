@@ -13,7 +13,8 @@
     .news_bock .card_wrapper .card {
       max-width: 1110px;
       width: 100%;
-      background-color: transparent; }
+      background-color: transparent;
+      border: none; }
       .news_bock .card_wrapper .card .card_box {
         display: flex;
         justify-content: space-between;

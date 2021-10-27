@@ -8,7 +8,7 @@ const PostsPage = () => {
     return (
         <Layout>
             <section className="search_block">
-                <LogoBlock />
+                <LogoBlock placeholder={`Search in site...`} />
             </section>
             <section className="tab_block">
                 <TabBlock />

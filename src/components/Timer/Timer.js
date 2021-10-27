@@ -2,9 +2,9 @@ import React, {useEffect, useState} from 'react';
 import './timer.scss'
 import RedBtn from "../RedBtn/RedBtn";
 
-const Timer = () => {
+const Timer = ({endDate = null}) => {
     const [distance, setDistance] = useState(null);
-    const time = `November 15, 2021 00:00:25`;
+    const time = endDate ?? `November 15, 2021 00:00:25`;
     const countDownDate = new Date(time).getTime();
 
     useEffect(() => {

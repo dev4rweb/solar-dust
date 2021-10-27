@@ -13,7 +13,19 @@
       align-items: flex-end;
       width: 100%; }
       .logo_block .card .wrapper .page_logo {
-        max-width: 334px; }
+        max-width: 334px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s; }
+        .logo_block .card .wrapper .page_logo:hover {
+          cursor: pointer;
+          -webkit-transform: scale(1.1, 1.1);
+          -moz-transform: scale(1.1, 1.1);
+          -ms-transform: scale(1.1, 1.1);
+          -o-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1); }
       .logo_block .card .wrapper .searching_form {
         width: 100%;
         max-width: 635px;

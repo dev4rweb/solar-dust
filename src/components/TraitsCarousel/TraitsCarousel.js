@@ -2,8 +2,12 @@ import React from 'react';
 import Carousel from 'react-multi-carousel/lib/Carousel';
 import 'react-multi-carousel/lib/styles.css';
 import './traitsCarousel.scss'
+import {useHistory} from 'react-router-dom'
+import {MINT_DETAIL_PAGE} from "../../utils/consts";
 
-const TraitsCarousel = ({data, classWith = '', amount = 7}) => {
+const TraitsCarousel = ({data, classWith = '', amount = 7, prefix = ''}) => {
+    const history = useHistory()
+    // console.log(history)
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
@@ -57,6 +61,7 @@ const TraitsCarousel = ({data, classWith = '', amount = 7}) => {
                                 <div
                                     key={index}
                                     className="mc_item"
+                                    onClick={() => history.push(MINT_DETAIL_PAGE + '/' + prefix + '/' + index)}
                                 >
                                     <img
                                         src={`/traits_for_site/${item.image}`}

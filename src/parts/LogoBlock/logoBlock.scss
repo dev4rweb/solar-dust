@@ -17,6 +17,20 @@
 
       .page_logo {
         max-width: 334px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+
+        &:hover {
+          cursor: pointer;
+          -webkit-transform: scale(1.1, 1.1);
+          -moz-transform: scale(1.1, 1.1);
+          -ms-transform: scale(1.1, 1.1);
+          -o-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+        }
       }
 
       .searching_form {
@@ -24,7 +38,7 @@
         max-width: 635px;
         height: 50px;
 
-        .search_input{
+        .search_input {
           font-family: 'K2D', sans-serif;
           font-weight: normal;
           font-size: 30px;
@@ -34,7 +48,7 @@
           box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.15);
         }
 
-        .btn_search{
+        .btn_search {
           width: 65px;
           padding: 0;
           display: flex;
@@ -49,7 +63,7 @@
           -o-transition: all .3s;
           transition: all .3s;
 
-          &:hover{
+          &:hover {
             -webkit-transform: scale(1.1, 1.1);
             -moz-transform: scale(1.1, 1.1);
             -ms-transform: scale(1.1, 1.1);
