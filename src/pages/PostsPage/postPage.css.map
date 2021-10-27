@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,UAAU;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,IAAI",
+"sources": ["postPage.scss"],
+"names": [],
+"file": "postPage.css"
+}

@@ -1,0 +1,35 @@
+.articles_tab {
+ .post_content{
+   margin-top: 27px;
+   margin-bottom: 10px;
+   .content_title{
+     font-family: 'K2D', sans-serif;
+     margin-bottom: 50px;
+   }
+   .content_desc{
+     margin-bottom: 30px;
+   }
+
+   .show_more {
+     display: flex;
+     justify-content: center;
+
+     a {
+       font-style: normal;
+       font-weight: normal;
+       font-size: 20px;
+       line-height: 26px;
+       color: #FFFFFF;
+     }
+   }
+ }
+  .grid_title{
+    font-family: 'K2D', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+}

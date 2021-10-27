@@ -19,5 +19,13 @@
   .traits_section .skin, .traits_section .eyes, .traits_section .armor, .traits_section .weapons, .traits_section .erings {
     position: relative;
     margin-bottom: 106px; }
+  .traits_section .wrap_six {
+    width: 100%;
+    max-width: 1580px;
+    margin: 0 auto 106px; }
+  .traits_section .wrap_four {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto 106px; }
 
 /*# sourceMappingURL=mintsPage.css.map */

@@ -3,6 +3,7 @@ import './footer.scss'
 import logo from '../../assets/img/footer-logo.png'
 import {NavLink} from "react-router-dom";
 import Social from "../../components/Social/Social";
+import {POSTS_PAGE} from "../../utils/consts";
 
 const Footer = () => {
     return (
@@ -17,7 +18,7 @@ const Footer = () => {
                         <li><NavLink to="/#roadmap">ROADMAP</NavLink></li>
                         <li><NavLink to="/#rarity">RARITY</NavLink></li>
                         <li><NavLink to="/#news">NEWS</NavLink></li>
-                        <li><NavLink to="/mints">MINT</NavLink></li>
+                        <li><NavLink to={POSTS_PAGE}>POSTS</NavLink></li>
                     </ul>
                     <p className="desc">
                         Сollection of 10,000, your ticket to the game.

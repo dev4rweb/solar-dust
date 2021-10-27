@@ -1,0 +1,27 @@
+.articles_tab .post_content {
+  margin-top: 27px;
+  margin-bottom: 10px; }
+  .articles_tab .post_content .content_title {
+    font-family: 'K2D', sans-serif;
+    margin-bottom: 50px; }
+  .articles_tab .post_content .content_desc {
+    margin-bottom: 30px; }
+  .articles_tab .post_content .show_more {
+    display: flex;
+    justify-content: center; }
+    .articles_tab .post_content .show_more a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 26px;
+      color: #FFFFFF; }
+.articles_tab .grid_title {
+  font-family: 'K2D', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 50px;
+  margin-top: 40px; }
+
+/*# sourceMappingURL=articlesTab.css.map */

@@ -3,12 +3,12 @@ import Carousel from 'react-multi-carousel/lib/Carousel';
 import 'react-multi-carousel/lib/styles.css';
 import './traitsCarousel.scss'
 
-const TraitsCarousel = ({data}) => {
+const TraitsCarousel = ({data, classWith = '', amount = 7}) => {
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
             breakpoint: {max: 1920, min: 1370},
-            items: 6
+            items: amount
         },
         desktop: {
             breakpoint: {max: 1370, min: 1024},
@@ -25,15 +25,15 @@ const TraitsCarousel = ({data}) => {
     };
 
     const mcStyles = [
-        {rarity: 'legendary' ,color: '#F97A33'},
-        {rarity: 'epic' ,color: '#AC27EB'},
-        {rarity: 'uncommon' ,color: '#588F20'},
-        {rarity: 'mythic' ,color: '#33F9ED'},
-        {rarity: 'rare' ,color: '#33A6F9'},
+        {rarity: 'legendary', color: '#F97A33'},
+        {rarity: 'epic', color: '#AC27EB'},
+        {rarity: 'uncommon', color: '#588F20'},
+        {rarity: 'mythic', color: '#33F9ED'},
+        {rarity: 'rare', color: '#33A6F9'},
     ]
 
     return (
-        <div className="traitsCarousel">
+        <div className={`traitsCarousel ${classWith}`}>
             <Carousel
                 responsive={responsive}
                 swipeable={false}
@@ -51,8 +51,8 @@ const TraitsCarousel = ({data}) => {
             >
                 {
                     data.map((item, index) => {
-                        const mcColor = mcStyles.find(i => i.rarity == item.rarity.toLowerCase())
-                        // console.log(mcColor)
+                            const mcColor = mcStyles.find(i => i.rarity == item.rarity.toLowerCase())
+                            // console.log(mcColor)
                             return (
                                 <div
                                     key={index}

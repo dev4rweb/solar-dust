@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './mintsPage.scss'
 import Layout from "../../components/Layout";
 import LogoBlock from "../../parts/LogoBlock/LogoBlock";
@@ -10,7 +10,6 @@ import traitsData from '../../assets/traits_for_site/traits.json'
 import TraitsCarousel from "../../components/TraitsCarousel/TraitsCarousel";
 
 const MintsPage = () => {
-    const [image, setImage] = useState(null)
     // console.log(traitsData)
 
     return (
@@ -38,11 +37,11 @@ const MintsPage = () => {
                 </div>
                 <div className="weapons">
                     <h3>Weapons</h3>
-                    <TraitsCarousel data={traitsData.weapons} />
+                    <TraitsCarousel data={traitsData.weapons} classWith={`wrap_six`} amount={6} />
                 </div>
                 <div className="erings">
                     <h3>Erings</h3>
-                    <TraitsCarousel data={traitsData.hairs} />
+                    <TraitsCarousel data={traitsData.hairs} classWith={`wrap_four`} amount={4} />
                 </div>
             </div>
         </Layout>
