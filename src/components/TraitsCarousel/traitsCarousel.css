@@ -1,3 +1,52 @@
-
+.traitsCarousel .carousel-container {
+  min-height: 600px; }
+  .traitsCarousel .carousel-container .mc_item {
+    width: 100%;
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .traitsCarousel .carousel-container .mc_item .mc_avatar {
+      width: 100%;
+      max-width: 255px;
+      height: auto;
+      margin-bottom: 24px; }
+    .traitsCarousel .carousel-container .mc_item .mc_name {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 35px; }
+    .traitsCarousel .carousel-container .mc_item .mc_percent {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 32px; }
+    .traitsCarousel .carousel-container .mc_item .mc_rarity {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      text-transform: uppercase; }
+.traitsCarousel .custom-dot-list-style {
+  width: 100%;
+  max-width: 540px;
+  background-color: rgba(7, 7, 7, 0.7);
+  border: 1px solid #222222;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px #000000;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto; }
+.traitsCarousel .react-multi-carousel-dot button {
+  display: none; }
+.traitsCarousel .react-multi-carousel-dot--active button {
+  display: inline-block;
+  width: 69px;
+  height: 20px;
+  background: linear-gradient(93.35deg, #AC0B0B 0%, #F97A33 99.41%);
+  box-shadow: 0px 0px 20px #C20000, inset 0px -4px 0px #A31818;
+  border-radius: 10px;
+  opacity: 1; }
 
 /*# sourceMappingURL=traitsCarousel.css.map */

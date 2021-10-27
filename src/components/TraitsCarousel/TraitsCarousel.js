@@ -23,8 +23,17 @@ const TraitsCarousel = ({data}) => {
             items: 1
         }
     };
+
+    const mcStyles = [
+        {rarity: 'legendary' ,color: '#F97A33'},
+        {rarity: 'epic' ,color: '#AC27EB'},
+        {rarity: 'uncommon' ,color: '#588F20'},
+        {rarity: 'mythic' ,color: '#33F9ED'},
+        {rarity: 'rare' ,color: '#33A6F9'},
+    ]
+
     return (
-        <div className="multi_carousel">
+        <div className="traitsCarousel">
             <Carousel
                 responsive={responsive}
                 swipeable={false}
@@ -41,13 +50,31 @@ const TraitsCarousel = ({data}) => {
                 itemClass="carousel-item-padding-40-px"
             >
                 {
-                    data.map((img, index) =>
-                        <div
-                            key={index}
-                            className="mc_item"
-                        >
-                            <img src={img} alt="pumpkin"/>
-                        </div>
+                    data.map((item, index) => {
+                        const mcColor = mcStyles.find(i => i.rarity == item.rarity.toLowerCase())
+                        // console.log(mcColor)
+                            return (
+                                <div
+                                    key={index}
+                                    className="mc_item"
+                                >
+                                    <img
+                                        src={`/traits_for_site/${item.image}`}
+                                        alt="avatar"
+                                        className="mc_avatar"
+                                    />
+                                    <h5 className="mc_name">
+                                        {item.name}
+                                    </h5>
+                                    <p className="mc_percent">{item.count_percent}</p>
+                                    <h6
+                                        className="mc_rarity"
+                                        style={{color: mcColor.color}}
+                                    >
+                                        {item.rarity}
+                                    </h6>
+                                </div>)
+                        }
                     )
                 }
             </Carousel>

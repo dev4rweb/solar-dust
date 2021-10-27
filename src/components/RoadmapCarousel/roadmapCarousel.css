@@ -34,8 +34,7 @@
 .roadmap_carousel .custom-dot-list-style {
   width: 100%;
   max-width: 540px;
-  background: #070707;
-  opacity: 0.7;
+  background-color: rgba(7, 7, 7, 0.7);
   border: 1px solid #222222;
   box-sizing: border-box;
   box-shadow: 0px 4px 20px #000000;

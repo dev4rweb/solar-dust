@@ -11,6 +11,13 @@
   margin-top: 100px; }
   .traits_section h2 {
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 43px; }
+  .traits_section h3 {
+    text-align: center;
+    margin-bottom: -50px; }
+  .traits_section .skin, .traits_section .eyes, .traits_section .armor, .traits_section .weapons, .traits_section .erings {
+    position: relative;
+    margin-bottom: 106px; }
 
 /*# sourceMappingURL=mintsPage.css.map */

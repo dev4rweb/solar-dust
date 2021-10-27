@@ -7,10 +7,11 @@ import one from '../../assets/img/mints/image20.png'
 import two from '../../assets/img/mints/image21.png'
 import three from '../../assets/img/mints/image22.png'
 import traitsData from '../../assets/traits_for_site/traits.json'
+import TraitsCarousel from "../../components/TraitsCarousel/TraitsCarousel";
 
 const MintsPage = () => {
     const [image, setImage] = useState(null)
-    console.log(traitsData)
+    // console.log(traitsData)
 
     return (
         <Layout>
@@ -23,6 +24,26 @@ const MintsPage = () => {
             <DescriptionBlock />
             <div className="traits_section">
                 <h2>Traits</h2>
+                <div className="skin">
+                    <h3>Skin</h3>
+                    <TraitsCarousel data={traitsData.skins} />
+                </div>
+                <div className="eyes">
+                    <h3>Eyes</h3>
+                    <TraitsCarousel data={traitsData.eyes} />
+                </div>
+                <div className="armor">
+                    <h3>Armor</h3>
+                    <TraitsCarousel data={traitsData.armors} />
+                </div>
+                <div className="weapons">
+                    <h3>Weapons</h3>
+                    <TraitsCarousel data={traitsData.weapons} />
+                </div>
+                <div className="erings">
+                    <h3>Erings</h3>
+                    <TraitsCarousel data={traitsData.hairs} />
+                </div>
             </div>
         </Layout>
     );

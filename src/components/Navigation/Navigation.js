@@ -1,6 +1,7 @@
 import React from 'react';
 import './navigation.scss'
 import {Nav} from "react-bootstrap";
+import {NavLink} from "react-router-dom";
 
 const Navigation = () => {
     return (
@@ -42,10 +43,10 @@ const Navigation = () => {
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-                <Nav.Link href="/mints">
+                <NavLink to="/mints" className="nav-link">
                     <span>Mint</span>
                     <hr className="underline"/>
-                </Nav.Link>
+                </NavLink>
             </Nav.Item>
         </Nav>
     );
