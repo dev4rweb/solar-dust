@@ -1,0 +1,98 @@
+.detail_page {
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 43.23%, #000000 100%), url(../../assets/img/mint-top-bg.png);
+  display: flex;
+  justify-content: center; }
+  .detail_page .dt_wrapper {
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    justify-content: flex-start; }
+    .detail_page .dt_wrapper .page_logo {
+      margin-top: 100px; }
+
+.dt_card_wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center; }
+  .dt_card_wrapper .card {
+    width: 100%;
+    max-width: 1110px;
+    margin-top: -45px;
+    margin-bottom: 200px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .dt_card_wrapper .card .dt_content_side {
+      position: relative; }
+      .dt_card_wrapper .card .dt_content_side .dt_content {
+        width: 100%;
+        max-width: 540px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 44px;
+        margin-top: 90px; }
+      .dt_card_wrapper .card .dt_content_side .td_sold {
+        margin-top: 90px; }
+        .dt_card_wrapper .card .dt_content_side .td_sold h5 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 35px;
+          text-transform: uppercase;
+          margin-bottom: 30px; }
+        .dt_card_wrapper .card .dt_content_side .td_sold h1 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 100px;
+          line-height: 116px;
+          text-transform: uppercase; }
+      .dt_card_wrapper .card .dt_content_side .td_timer_wrapper .td_live {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 58px;
+        text-transform: uppercase; }
+      .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper {
+        position: absolute;
+        bottom: -130px;
+        width: 100%; }
+        .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper .td_balance_wrapper {
+          display: flex; }
+          .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper .td_balance_wrapper .td_cell {
+            margin-left: 48px; }
+            .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper .td_balance_wrapper .td_cell span {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 26px; }
+            .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper .td_balance_wrapper .td_cell h4 {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 25px;
+              line-height: 32px;
+              margin-top: 10px; }
+    .dt_card_wrapper .card .dt_avatar_side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end; }
+      .dt_card_wrapper .card .dt_avatar_side .dt_price {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: white; }
+      .dt_card_wrapper .card .dt_avatar_side .dt_avatar {
+        filter: drop-shadow(0px 0px 64px #000000);
+        border-radius: 32px; }
+
+/*# sourceMappingURL=mintDetailPage.css.map */

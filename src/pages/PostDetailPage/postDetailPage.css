@@ -1,3 +1,7 @@
+.search_block {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 43.23%, #000000 100%), url(../../assets/img/mint-top-bg.png);
+  position: relative; }
+
 .post_detail {
   display: flex;
   justify-content: center;
