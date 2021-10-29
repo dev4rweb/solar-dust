@@ -3,7 +3,7 @@ import './postDetailPage.scss'
 import Layout from "../../components/Layout";
 import {useParams} from 'react-router-dom'
 import LogoBlock from "../../parts/LogoBlock/LogoBlock";
-import photo from '../../assets/img/post/post-card.png'
+import photoImg from '../../assets/img/post/post-card.png'
 
 const PostDetailPage = () => {
     const params = useParams()
@@ -39,7 +39,7 @@ const PostDetailPage = () => {
                             sometimes by accident, sometimes on purpose (injected humour and the like).
 
                         </p>
-                        <img src={photo} alt="photo" className="pd_card_image"/>
+                        <img src={photoImg} alt="photo" className="pd_card_image"/>
                     </div>
                     <div className="pd_full_content">
                         <h4 className="pdf_title">

@@ -9,11 +9,22 @@
     margin-top: 106px;
     border: none;
 
+    @media screen and(max-width: 1110px) {
+      max-width: none;
+      width: 90%;
+    }
+
     .wrapper {
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
       width: 100%;
+
+      @media screen and(max-width: 992px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 
       .page_logo {
         max-width: 334px;
@@ -22,6 +33,10 @@
         -ms-transition: all .3s;
         -o-transition: all .3s;
         transition: all .3s;
+
+        @media screen and(max-width: 992px){
+          margin-bottom: 30px;
+        }
 
         &:hover {
           cursor: pointer;

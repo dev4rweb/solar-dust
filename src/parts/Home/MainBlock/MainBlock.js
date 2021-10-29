@@ -15,6 +15,8 @@ const MainBlock = () => {
                 <img className="cloud_one" src={cloudOne} alt="cloud"/>
                 <img className="cloud_one" src={cloudTwo} alt="cloud"/>
             </section>
+            {/*https://www.npmjs.com/package/react-scroll-parallax*/}
+
             <section className="main_content">
                 <div className="content_box">
                     <img src={girl} className="main_girl" alt="avatar"/>
@@ -23,7 +25,7 @@ const MainBlock = () => {
                         <RedBtn>Adopt me</RedBtn>
                     </div>
                 </div>
-                <p>
+                <p className="mb_description">
                     We are starting the sale of 10,000 unique collectible NFTs , which are also a pass to the NFT Games
                     BMB World.
                 </p>

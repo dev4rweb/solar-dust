@@ -6,6 +6,15 @@
     position: absolute;
     bottom: -160px;
     left: 0; }
+    @media screen and (max-width: 1110px) {
+      .news_bock .cloud {
+        left: -200px; } }
+    @media screen and (max-width: 768px) {
+      .news_bock .cloud {
+        left: -400px; } }
+    @media screen and (max-width: 576px) {
+      .news_bock .cloud {
+        left: -600px; } }
   .news_bock .card_wrapper {
     position: static;
     display: flex;
@@ -15,25 +24,52 @@
       width: 100%;
       background-color: transparent;
       border: none; }
+      @media screen and (max-width: 1110px) {
+        .news_bock .card_wrapper .card {
+          width: 90%; } }
+      .news_bock .card_wrapper .card .nb_mobile {
+        display: none; }
+        @media screen and (max-width: 992px) {
+          .news_bock .card_wrapper .card .nb_mobile {
+            display: block;
+            margin-bottom: 42px;
+            text-transform: uppercase;
+            text-align: center; } }
       .news_bock .card_wrapper .card .card_box {
         display: flex;
         justify-content: space-between;
         align-items: center; }
+        @media screen and (max-width: 992px) {
+          .news_bock .card_wrapper .card .card_box {
+            flex-direction: column;
+            justify-content: center; } }
         .news_bock .card_wrapper .card .card_box .books {
-          width: 438px; }
+          width: 100%;
+          height: auto; }
         .news_bock .card_wrapper .card .card_box .content_block {
           max-width: 630px;
           display: flex;
           flex-direction: column;
-          justify-content: space-between; }
-          .news_bock .card_wrapper .card .card_box .content_block h2 {
+          justify-content: space-between;
+          align-items: center; }
+          @media screen and (max-width: 992px) {
+            .news_bock .card_wrapper .card .card_box .content_block {
+              width: 100%;
+              max-width: none; } }
+          .news_bock .card_wrapper .card .card_box .content_block .nb_desktop {
             margin-bottom: 42px;
             text-transform: uppercase; }
+            @media screen and (max-width: 992px) {
+              .news_bock .card_wrapper .card .card_box .content_block .nb_desktop {
+                display: none; } }
           .news_bock .card_wrapper .card .card_box .content_block p {
             font-style: normal;
             font-weight: normal;
             font-size: 40px;
             line-height: 52px;
             margin-bottom: 72px; }
+            @media screen and (max-width: 992px) {
+              .news_bock .card_wrapper .card .card_box .content_block p {
+                text-align: center; } }
 
 /*# sourceMappingURL=newsBlock.css.map */

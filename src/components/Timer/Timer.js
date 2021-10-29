@@ -36,33 +36,35 @@ const Timer = ({endDate = null}) => {
     }
     return (
         <div className="timer">
-            <div className="table_timer">
-                <div className="pairs">
-                    <span className="cell">{splitNumber(days)[0]}</span>
-                    <span className="cell">{splitNumber(days)[1]}</span>
+            <div className="timer_wrapper">
+                <div className="table_timer">
+                    <div className="pairs">
+                        <span className="cell">{splitNumber(days)[0]}</span>
+                        <span className="cell">{splitNumber(days)[1]}</span>
+                    </div>
+                    <span className="sign">Days</span>
                 </div>
-                <span className="sign">Days</span>
-            </div>
-            <div className="table_timer">
-                <div className="pairs">
-                    <span className="cell">{splitNumber(hours)[0]}</span>
-                    <span className="cell">{splitNumber(hours)[1]}</span>
+                <div className="table_timer">
+                    <div className="pairs">
+                        <span className="cell">{splitNumber(hours)[0]}</span>
+                        <span className="cell">{splitNumber(hours)[1]}</span>
+                    </div>
+                    <span className="sign">Hours</span>
                 </div>
-                <span className="sign">Hours</span>
-            </div>
-            <div className="table_timer">
-                <div className="pairs">
-                    <span className="cell">{splitNumber(minutes)[0]}</span>
-                    <span className="cell">{splitNumber(minutes)[1]}</span>
+                <div className="table_timer">
+                    <div className="pairs">
+                        <span className="cell">{splitNumber(minutes)[0]}</span>
+                        <span className="cell">{splitNumber(minutes)[1]}</span>
+                    </div>
+                    <span className="sign">Minutes</span>
                 </div>
-                <span className="sign">Minutes</span>
-            </div>
-            <div className="table_timer">
-                <div className="pairs">
-                    <span className="cell">{splitNumber(seconds)[0]}</span>
-                    <span className="cell">{splitNumber(seconds)[1]}</span>
+                <div className="table_timer">
+                    <div className="pairs">
+                        <span className="cell">{splitNumber(seconds)[0]}</span>
+                        <span className="cell">{splitNumber(seconds)[1]}</span>
+                    </div>
+                    <span className="sign">Seconds</span>
                 </div>
-                <span className="sign">Seconds</span>
             </div>
             <RedBtn>
                 Mint soon

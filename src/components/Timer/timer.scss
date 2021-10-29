@@ -1,4 +1,4 @@
-.timer{
+.timer {
   width: 1110px;
   height: 129px;
   background: url(../../assets/img/timer-bg.png) no-repeat center center;
@@ -13,56 +13,128 @@
   border-radius: 20px;
   padding: 16px 50px 16px 37px;
 
-  .table_timer{
-    width: 100%;
-    max-width: 126px;
-    height: 103px;
-    display: flex;
+  @media screen and (max-width: 1100px) {
+    width: 95vw;
+  }
+  @media screen and (max-width: 992px) {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 180px;
+  }
 
-    .pairs {
+  @media screen and (max-width: 576px) {
+    padding: 16px 16px 37px 16px;
+    height: 135px;
+  }
+
+  @media screen and (max-width: 477px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .timer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .table_timer {
+      width: 100%;
+      max-width: 126px;
+      height: 103px;
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-      .cell{
+      .pairs {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60px;
-        height: 70px;
-        color: black;
+        justify-content: space-between;
+
+
+        @media screen and (max-width: 477px) {
+          -webkit-transform: scale(.7, .7);
+          -moz-transform: scale(.7, .7);
+          -ms-transform: scale(.7, .7);
+          -o-transform: scale(.7, .7);
+          transform: scale(.7, .7);
+        }
+
+        @media screen and (max-width: 400px) {
+          -webkit-transform: scale(.5, .5);
+          -moz-transform: scale(.5, .5);
+          -ms-transform: scale(.5, .5);
+          -o-transform: scale(.5, .5);
+          transform: scale(.5, .5);
+        }
+
+        .cell {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 60px;
+          height: 70px;
+          color: black;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 70px;
+          line-height: 91px;
+          background: linear-gradient(180deg, #C4C4C4 0%, #FFFFFF 100%), linear-gradient(180deg, #C4C4C4 0%, #FFFFFF 100%);
+          border-radius: 10px;
+          background-origin: padding-box, padding-box;
+          background-size: 60px 42px, 60px 42px;
+          background-position: 0 40px, 0px 42px;
+
+          @media screen and (max-width: 700px) {
+            font-weight: 800;
+            font-size: 52.144px;
+            line-height: 68px;
+            background-size: 44px 23px, 44px 23px;
+            background-position: 0 23px, 0px 20px;
+            width: 44px;
+            height: 46px;
+          }
+
+          &:first-of-type {
+            margin-right: 7px;
+          }
+
+        }
+      }
+
+      .sign {
         font-style: normal;
-        font-weight: 800;
-        font-size: 70px;
-        line-height: 91px;
-        background: linear-gradient(180deg, #C4C4C4 0%, #FFFFFF 100%), linear-gradient(180deg, #C4C4C4 0%, #FFFFFF 100%);
-        border-radius: 10px;
-        background-origin: padding-box, padding-box;
-        background-size: 60px 42px, 60px 42px;
-        background-position: 0 40px, 0px 42px;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 5px;
+
+        /*color: black;
+        -webkit-text-fill-color: white; !* Will override color (regardless of order) *!
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;*/
+        /*-webkit-text-stroke: 1px black;
+        color: white;
+        text-shadow:
+                1px 1px 0 #000,
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;*/
       }
     }
-    .sign{
-      font-style: normal;
-      font-weight: 900;
-      font-size: 20px;
-      line-height: 26px;
-      margin-top: 5px;
+  }
 
-      /*color: black;
-      -webkit-text-fill-color: white; !* Will override color (regardless of order) *!
-      -webkit-text-stroke-width: 0.5px;
-      -webkit-text-stroke-color: black;*/
-      /*-webkit-text-stroke: 1px black;
-      color: white;
-      text-shadow:
-              1px 1px 0 #000,
-              -1px -1px 0 #000,
-              1px -1px 0 #000,
-              -1px 1px 0 #000,
-              1px 1px 0 #000;*/
+  .red_btn{
+    margin-left: 20px;
+
+    @media screen and (max-width: 992px) {
+      margin-left: 0;
+      position: absolute;
+      bottom: -40px;
+      z-index: 10;
+    }
+
+    @media screen and (max-width: 992px) {
+      bottom: -65px;
     }
   }
 }

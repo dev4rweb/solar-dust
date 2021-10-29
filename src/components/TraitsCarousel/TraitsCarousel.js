@@ -3,7 +3,7 @@ import Carousel from 'react-multi-carousel/lib/Carousel';
 import 'react-multi-carousel/lib/styles.css';
 import './traitsCarousel.scss'
 import {useHistory} from 'react-router-dom'
-import {MINT_DETAIL_PAGE} from "../../utils/consts";
+import {MINT_DETAIL_PAGE, RARITY_DETAIL_PAGE} from "../../utils/consts";
 
 const TraitsCarousel = ({data, classWith = '', amount = 7, prefix = ''}) => {
     const history = useHistory()
@@ -24,7 +24,7 @@ const TraitsCarousel = ({data, classWith = '', amount = 7, prefix = ''}) => {
         },
         mobile: {
             breakpoint: {max: 576, min: 0},
-            items: 1
+            items: 3
         }
     };
 
@@ -61,7 +61,7 @@ const TraitsCarousel = ({data, classWith = '', amount = 7, prefix = ''}) => {
                                 <div
                                     key={index}
                                     className="mc_item"
-                                    onClick={() => history.push(MINT_DETAIL_PAGE + '/' + prefix + '/' + index)}
+                                    onClick={() => history.push(RARITY_DETAIL_PAGE + '/' + prefix + '/' + index)}
                                 >
                                     <img
                                         src={`/traits_for_site/${item.image}`}

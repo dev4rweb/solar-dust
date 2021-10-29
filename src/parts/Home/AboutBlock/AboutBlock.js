@@ -18,7 +18,7 @@ const AboutBlock = () => {
                 <div className="about_clouds"/>
                 <div className="about_content_wrapper">
                     <img src={girl} alt="girl" className="about_girl"/>
-                    <div className="about_content">
+                    <div className="card about_content">
                         <h2>About</h2>
                         <p>
                             They were once roaming the streets of New Fang City. But now a pack of 8888 Fangsters have
@@ -36,7 +36,7 @@ const AboutBlock = () => {
 
             </section>
             <section className="about_grid">
-                <div className="about_grid_wrapper">
+                <div className="card about_grid_wrapper">
                     <div className="about_grid_item">
                         <img src={iconOne} alt="icon" className="icon"/>
                         <span className="title">

@@ -12,6 +12,11 @@
   background-size: cover;
   height: 775px;
 
+  .card {
+    background-color: transparent;
+    border: none;
+  }
+
   .dragon {
     position: absolute;
     left: 50%;
@@ -27,6 +32,18 @@
     background: url(../../../assets/img/about-cloud-one.png) no-repeat center center,
     url(../../../assets/img/about-cloud-two.png) no-repeat center center,
     url(../../../assets/img/about-cloud-three.png) no-repeat center center;
+
+    @media screen and (max-width: 900px) {
+      left: -300px;
+    }
+
+    @media screen and (max-width: 576px) {
+      left: -400px;
+    }
+
+    @media screen and (max-width: 480px) {
+      left: -500px;
+    }
   }
 
   .about_content_wrapper {
@@ -37,6 +54,15 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+
+    @media screen and (max-width: 1110px) {
+      width: 90%;
+    }
+
+    @media screen and (max-width: 1110px) {
+      flex-direction: column;
+      align-items: center;
+    }
 
     .about_girl {
 
@@ -86,10 +112,23 @@
 
 }
 
-.about_grid{
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.about_grid {
   display: flex;
   justify-content: center;
-  .about_grid_wrapper{
+  @media screen and (max-width: 1110px) {
+    margin-top: 400px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 500px;
+  }
+
+  .about_grid_wrapper {
     width: 100%;
     max-width: 1110px;
     display: grid;
@@ -97,20 +136,42 @@
     grid-auto-rows: auto auto;
     grid-gap: 33px;
 
-    .about_grid_item{
+    @media screen and (max-width: 1110px) {
+      max-width: none;
+      width: 90%;
+    }
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: auto auto ;
+      //grid-auto-rows: auto auto auto;
+    }
+
+    @media screen and (max-width: 576px) {
+      grid-template-columns: auto;
+      //grid-auto-rows: auto auto auto;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .about_grid_item {
       width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
 
-      .icon{
+      @media screen and (max-width: 576px) {
+        max-width: 350px;
+        align-self: center;
+      }
+
+      .icon {
         //background: linear-gradient(93.35deg, #AC0B0B 0%, #F97A33 99.41%);
         //box-shadow: 0px 0px 20px #C20000, inset 0px -8px 0px #A31818;
         margin-bottom: 25px;
       }
 
-      .title{
+      .title {
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
@@ -119,7 +180,7 @@
         margin-bottom: 11px;
       }
 
-      .description{
+      .description {
         font-style: normal;
         font-weight: normal;
         font-size: 16px;

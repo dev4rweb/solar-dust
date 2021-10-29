@@ -4,6 +4,17 @@
   url(../../../assets/img/parity-bg.png);
   //transform: matrix(-1, 0, 0, 1, 0, 0);
 
+  .hide_title{
+    display: none;
+
+    @media screen and (max-width: 992px){
+      display: block;
+      text-align: center;
+      margin-top: 100px;
+      text-transform: uppercase;
+    }
+  }
+
   .card_wrapper{
     margin-top: 95px;
     display: flex;
@@ -15,13 +26,27 @@
       justify-content: space-between;
       align-items: flex-end;
 
+      @media screen and (max-width: 1110px){
+        width: 90%;
+      }
+
+      @media screen and (max-width: 992px){
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+      }
+
       .left_content{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
-        h2{
+        .desktop{
           text-transform: uppercase;
+
+          @media screen and (max-width: 992px){
+            display: none;
+          }
         }
         .parity_list{
           list-style-type: none;
@@ -37,9 +62,22 @@
             }
           }
         }
+
+        .btn_wrapper{
+          @media screen and (max-width: 992px){
+            display: flex;
+            justify-content: center;
+          }
+        }
       }
       .girl{
         filter: drop-shadow(0px 0px 20px #000000);
+        width: 100%;
+        height: auto;
+
+        @media screen and (max-width: 992px){
+          margin-bottom: 70px;
+        }
       }
     }
   }

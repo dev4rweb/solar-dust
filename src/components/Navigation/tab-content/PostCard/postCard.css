@@ -2,6 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media screen and (max-width: 992px) {
+    .post_card {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; } }
+  .post_card .card_photo {
+    width: 100%;
+    max-width: 540px;
+    margin-right: 20px; }
+    @media screen and (max-width: 992px) {
+      .post_card .card_photo {
+        margin-right: 0;
+        margin-bottom: 30px; } }
   .post_card .card_content {
     width: 100%;
     max-width: 500px; }

@@ -2,6 +2,11 @@
   width: 100%;
   max-width: 1110px;
 
+  @media screen and (max-width: 1110px){
+    max-width: none;
+    width: 90%;
+  }
+
   .nav-tabs{
     justify-content: space-between;
     border: none;

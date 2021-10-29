@@ -6,12 +6,52 @@
   justify-content: center;
   align-items: center;
   height: 1080px; }
+  @media screen and (max-width: 992px) {
+    .main_block {
+      height: 550px; } }
+  @media screen and (max-width: 576px) {
+    .main_block {
+      height: 337px; } }
   .main_block .logo {
     width: 100%;
     max-width: 429px;
     height: auto;
     margin-top: 200px; }
+    @media screen and (max-width: 992px) {
+      .main_block .logo {
+        margin-top: 0; } }
+    @media screen and (max-width: 576px) {
+      .main_block .logo {
+        max-width: 210px; } }
   .main_block .cloud_one {
+    width: 100%;
+    position: absolute;
+    height: 824px;
+    top: 700px; }
+    @media screen and (max-width: 992px) {
+      .main_block .cloud_one {
+        top: 200px;
+        height: 700px; } }
+    @media screen and (max-width: 576px) {
+      .main_block .cloud_one {
+        top: 180px;
+        height: 300px; } }
+
+.main_block_parallax {
+  width: 100vw;
+  background: url(../../../assets/img/main-block-bg.png) no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1080px; }
+  .main_block_parallax .logo {
+    width: 100%;
+    max-width: 429px;
+    height: auto;
+    margin-top: 200px; }
+  .main_block_parallax .cloud_one {
     width: 100%;
     position: absolute;
     height: 824px;
@@ -28,6 +68,9 @@
     align-items: center;
     position: relative;
     margin-bottom: 64px; }
+    @media screen and (max-width: 900px) {
+      .main_content .content_box {
+        flex-direction: column; } }
     .main_content .content_box .main_girl {
       width: 100%;
       max-width: 445px;
@@ -40,6 +83,18 @@
       border-radius: 0 20px 20px 0;
       padding: 38px;
       margin-left: -20px; }
+      @media screen and (max-width: 900px) {
+        .main_content .content_box .content {
+          width: 90vw;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+          margin-left: 0;
+          margin-top: -20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between; } }
       .main_content .content_box .content h3 {
         width: 100%;
         max-width: 381px;
@@ -48,9 +103,17 @@
         font-size: 60px;
         line-height: 69px;
         opacity: 1; }
+        @media screen and (max-width: 900px) {
+          .main_content .content_box .content h3 {
+            max-width: none;
+            text-align: center;
+            margin-bottom: 35px; } }
       .main_content .content_box .content .red_btn {
         margin-bottom: 31px; }
-  .main_content p {
+        @media screen and (max-width: 900px) {
+          .main_content .content_box .content .red_btn {
+            margin-bottom: 0; } }
+  .main_content .mb_description {
     width: 100%;
     max-width: 600px;
     font-style: normal;
@@ -58,6 +121,9 @@
     font-size: 30px;
     line-height: 39px;
     text-align: center; }
+    @media screen and (max-width: 576px) {
+      .main_content .mb_description {
+        width: 90%; } }
   .main_content .clock_wrapper {
     margin-top: 62px; }
 

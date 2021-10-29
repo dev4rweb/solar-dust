@@ -15,9 +15,7 @@ const TabBlock = () => {
                     title="All posts"
                     className="post_tab"
                 >
-                    <div className="tab_content">
-                        1
-                    </div>
+                    <ArticlesTab />
                 </Tab>
                 <Tab
                     eventKey="articles"
@@ -31,18 +29,14 @@ const TabBlock = () => {
                     title="News"
                     className="post_tab"
                 >
-                    <div className="tab_content">
-                        3
-                    </div>
+                    <ArticlesTab />
                 </Tab>
                 <Tab
                     eventKey="giveaway"
                     title="Give away"
                     className="post_tab"
                 >
-                    <div className="tab_content">
-                        4
-                    </div>
+                    <ArticlesTab />
                 </Tab>
             </Tabs>
         </div>

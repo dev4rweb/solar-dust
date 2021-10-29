@@ -1,0 +1,40 @@
+.searching_section {
+  height: 586px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 43.23%, #000000 100%), url(../../assets/img/mint-top-bg.png);
+  position: relative; }
+  .searching_section .clouds {
+    position: absolute;
+    bottom: -400px;
+    left: 0; }
+    @media screen and (max-width: 992px) {
+      .searching_section .clouds {
+        left: -200px; } }
+    @media screen and (max-width: 768px) {
+      .searching_section .clouds {
+        left: -400px; } }
+    @media screen and (max-width: 576px) {
+      .searching_section .clouds {
+        left: -600px; } }
+
+.traits_section {
+  margin-top: 100px; }
+  .traits_section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 43px; }
+  .traits_section h3 {
+    text-align: center;
+    margin-bottom: -50px; }
+  .traits_section .skin, .traits_section .eyes, .traits_section .armor, .traits_section .weapons, .traits_section .erings {
+    position: relative;
+    margin-bottom: 106px; }
+  .traits_section .wrap_six {
+    width: 100%;
+    max-width: 1580px;
+    margin: 0 auto 106px; }
+  .traits_section .wrap_four {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto 106px; }
+
+/*# sourceMappingURL=raritiesPage.css.map */

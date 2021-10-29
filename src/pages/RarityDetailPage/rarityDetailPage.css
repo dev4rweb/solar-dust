@@ -1,0 +1,146 @@
+.detail_page {
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 43.23%, #000000 100%), url(../../assets/img/mint-top-bg.png);
+  display: flex;
+  justify-content: center; }
+  .detail_page .dt_wrapper {
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    justify-content: flex-start; }
+    @media screen and (max-width: 1110px) {
+      .detail_page .dt_wrapper {
+        width: 90%; } }
+    @media screen and (max-width: 768px) {
+      .detail_page .dt_wrapper {
+        justify-content: center; } }
+    .detail_page .dt_wrapper .page_logo {
+      width: 100%;
+      max-width: 334px;
+      margin-top: 100px;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+      .detail_page .dt_wrapper .page_logo:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.1, 1.1);
+        -moz-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        -o-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1); }
+
+.dt_card_wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center; }
+  .dt_card_wrapper .card {
+    width: 100%;
+    max-width: 1110px;
+    margin-top: -45px;
+    margin-bottom: 200px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    @media screen and (max-width: 1110px) {
+      .dt_card_wrapper .card {
+        max-width: none;
+        width: 90%; } }
+    @media screen and (max-width: 992px) {
+      .dt_card_wrapper .card {
+        flex-direction: column-reverse; } }
+    .dt_card_wrapper .card .dt_content_mobile {
+      display: none; }
+      @media screen and (max-width: 992px) {
+        .dt_card_wrapper .card .dt_content_mobile {
+          display: block;
+          margin-top: 80px;
+          margin-bottom: 70px; } }
+    .dt_card_wrapper .card .dt_content_side {
+      position: relative; }
+      .dt_card_wrapper .card .dt_content_side .dt_content {
+        width: 100%;
+        max-width: 540px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 44px;
+        margin-top: 90px; }
+        @media screen and (max-width: 992px) {
+          .dt_card_wrapper .card .dt_content_side .dt_content {
+            display: none; } }
+      .dt_card_wrapper .card .dt_content_side .td_sold {
+        margin-top: 90px; }
+        .dt_card_wrapper .card .dt_content_side .td_sold h5 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 35px;
+          text-transform: uppercase;
+          margin-bottom: 30px; }
+        .dt_card_wrapper .card .dt_content_side .td_sold h1 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 100px;
+          line-height: 116px;
+          text-transform: uppercase; }
+      .dt_card_wrapper .card .dt_content_side .td_timer_wrapper .td_live {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 58px;
+        text-transform: uppercase; }
+      .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper {
+        position: absolute;
+        bottom: -130px;
+        width: 100%; }
+        .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper .td_balance_wrapper {
+          display: flex; }
+          .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper .td_balance_wrapper .td_cell {
+            margin-left: 48px; }
+            .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper .td_balance_wrapper .td_cell span {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 26px; }
+            .dt_card_wrapper .card .dt_content_side .dt_btn_wrapper .td_balance_wrapper .td_cell h4 {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 25px;
+              line-height: 32px;
+              margin-top: 10px; }
+    .dt_card_wrapper .card .dt_avatar_side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end; }
+      @media screen and (max-width: 992px) {
+        .dt_card_wrapper .card .dt_avatar_side {
+          flex-direction: column-reverse;
+          align-items: center; } }
+      .dt_card_wrapper .card .dt_avatar_side .dt_price {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: white; }
+        @media screen and (max-width: 992px) {
+          .dt_card_wrapper .card .dt_avatar_side .dt_price {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px; } }
+      .dt_card_wrapper .card .dt_avatar_side .dt_avatar {
+        filter: drop-shadow(0px 0px 64px #000000);
+        border-radius: 32px;
+        width: 100%;
+        max-width: 445px; }
+
+/*# sourceMappingURL=rarityDetailPage.css.map */

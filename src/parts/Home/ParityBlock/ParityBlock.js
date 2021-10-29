@@ -8,10 +8,12 @@ const ParityBlock = () => {
     return (
         <section className="parity_block">
             <RoadmapCarousel />
+
+            <h2 className="hide_title">Rarity</h2>
             <div className="card_wrapper">
                 <div className="card_box">
                     <div className="left_content">
-                        <h2  id="parity">Rarity</h2>
+                        <h2 className="desktop"  id="parity">Rarity</h2>
                         <ul className="parity_list">
                             <li>
                                 All our characters have different races, and more than 140 different traits
@@ -29,9 +31,11 @@ const ParityBlock = () => {
                                 A complete list of the rarity of all components and also determine how rare your NFT is, you can see in the "Rarity" section
                             </li>
                         </ul>
-                        <RedBtn>
-                            Go to
-                        </RedBtn>
+                        <div className="btn_wrapper">
+                            <RedBtn>
+                                Go to
+                            </RedBtn>
+                        </div>
                     </div>
                     <img src={girl} alt="girl" className="girl"/>
                 </div>

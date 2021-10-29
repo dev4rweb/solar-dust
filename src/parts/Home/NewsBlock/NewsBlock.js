@@ -17,10 +17,13 @@ const NewsBlock = () => {
             <img src={three} alt="cloud" className="cloud"/>
             <div className="card_wrapper">
                 <div className="card">
+                    <h2 className="nb_mobile">
+                        NEWS & blogs
+                    </h2>
                     <div className="card_box">
                         <img src={books} alt="books" className="books"/>
                         <div className="content_block">
-                            <h2>NEWS & blogs</h2>
+                            <h2 className="nb_desktop">NEWS & blogs</h2>
                             <p>
                                 We have a lot of useful information you need, News, Blogs, Lore and more - read our blog
                             </p>

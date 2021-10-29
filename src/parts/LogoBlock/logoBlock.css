@@ -7,11 +7,20 @@
     max-width: 1110px;
     margin-top: 106px;
     border: none; }
+    @media screen and (max-width: 1110px) {
+      .logo_block .card {
+        max-width: none;
+        width: 90%; } }
     .logo_block .card .wrapper {
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
       width: 100%; }
+      @media screen and (max-width: 992px) {
+        .logo_block .card .wrapper {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; } }
       .logo_block .card .wrapper .page_logo {
         max-width: 334px;
         -webkit-transition: all .3s;
@@ -19,6 +28,9 @@
         -ms-transition: all .3s;
         -o-transition: all .3s;
         transition: all .3s; }
+        @media screen and (max-width: 992px) {
+          .logo_block .card .wrapper .page_logo {
+            margin-bottom: 30px; } }
         .logo_block .card .wrapper .page_logo:hover {
           cursor: pointer;
           -webkit-transform: scale(1.1, 1.1);

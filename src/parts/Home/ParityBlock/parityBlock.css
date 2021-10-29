@@ -1,5 +1,13 @@
 .parity_block {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 24.48%, rgba(0, 0, 0, 0) 46.88%, #000000 78.65%), url(../../../assets/img/parity-bg.png); }
+  .parity_block .hide_title {
+    display: none; }
+    @media screen and (max-width: 992px) {
+      .parity_block .hide_title {
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+        text-transform: uppercase; } }
   .parity_block .card_wrapper {
     margin-top: 95px;
     display: flex;
@@ -10,12 +18,23 @@
       display: flex;
       justify-content: space-between;
       align-items: flex-end; }
+      @media screen and (max-width: 1110px) {
+        .parity_block .card_wrapper .card_box {
+          width: 90%; } }
+      @media screen and (max-width: 992px) {
+        .parity_block .card_wrapper .card_box {
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center; } }
       .parity_block .card_wrapper .card_box .left_content {
         display: flex;
         flex-direction: column;
         justify-content: space-between; }
-        .parity_block .card_wrapper .card_box .left_content h2 {
+        .parity_block .card_wrapper .card_box .left_content .desktop {
           text-transform: uppercase; }
+          @media screen and (max-width: 992px) {
+            .parity_block .card_wrapper .card_box .left_content .desktop {
+              display: none; } }
         .parity_block .card_wrapper .card_box .left_content .parity_list {
           list-style-type: none;
           padding-left: 0;
@@ -27,7 +46,16 @@
             max-width: 598px; }
             .parity_block .card_wrapper .card_box .left_content .parity_list li::before {
               content: url("../../../assets/img/list-style.png"); }
+        @media screen and (max-width: 992px) {
+          .parity_block .card_wrapper .card_box .left_content .btn_wrapper {
+            display: flex;
+            justify-content: center; } }
       .parity_block .card_wrapper .card_box .girl {
-        filter: drop-shadow(0px 0px 20px #000000); }
+        filter: drop-shadow(0px 0px 20px #000000);
+        width: 100%;
+        height: auto; }
+        @media screen and (max-width: 992px) {
+          .parity_block .card_wrapper .card_box .girl {
+            margin-bottom: 70px; } }
 
 /*# sourceMappingURL=parityBlock.css.map */

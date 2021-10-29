@@ -11,16 +11,23 @@
     -ms-transition: all .2s;
     -o-transition: all .2s;
     transition: all .2s; }
+    @media screen and (max-width: 992px) {
+      .traitsCarousel .carousel-container .mc_item {
+        max-width: 226px; } }
     .traitsCarousel .carousel-container .mc_item .mc_avatar {
       width: 100%;
       max-width: 255px;
       height: auto;
       margin-bottom: 24px; }
+      @media screen and (max-width: 992px) {
+        .traitsCarousel .carousel-container .mc_item .mc_avatar {
+          max-width: 226px; } }
     .traitsCarousel .carousel-container .mc_item .mc_name {
       font-style: normal;
       font-weight: normal;
       font-size: 30px;
-      line-height: 35px; }
+      line-height: 35px;
+      text-align: center; }
     .traitsCarousel .carousel-container .mc_item .mc_percent {
       font-style: normal;
       font-weight: normal;

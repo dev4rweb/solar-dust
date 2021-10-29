@@ -4,6 +4,11 @@
   .accordion{
     width: 100%;
     max-width: 1110px;
+
+    @media screen and (max-width: 1110px){
+      max-width: none;
+      width: 90%;
+    }
     .accordion-item{
       background-color: black;
       color: white;

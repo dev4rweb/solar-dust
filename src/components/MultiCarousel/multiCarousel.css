@@ -22,4 +22,11 @@
   border-radius: 10px;
   opacity: 1; }
 
+@media screen and (max-width: 576px) {
+  .mc_item {
+    max-width: 198px; }
+    .mc_item img {
+      max-width: 198px;
+      height: auto; } }
+
 /*# sourceMappingURL=multiCarousel.css.map */

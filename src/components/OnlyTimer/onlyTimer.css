@@ -12,6 +12,22 @@
   box-shadow: 0px 4px 20px #000000;
   border-radius: 20px;
   padding: 16px 25px 16px 37px; }
+  @media screen and (max-width: 1100px) {
+    .only_timer {
+      width: 100%;
+      min-width: 50vw; } }
+  @media screen and (max-width: 992px) {
+    .only_timer {
+      height: 180px;
+      min-width: 90vw; } }
+  @media screen and (max-width: 576px) {
+    .only_timer {
+      padding: 16px 16px 37px 16px;
+      height: 135px; } }
+  @media screen and (max-width: 477px) {
+    .only_timer {
+      padding-left: 0;
+      padding-right: 0; } }
   .only_timer .table_timer {
     width: 100%;
     max-width: 126px;
@@ -23,6 +39,20 @@
     .only_timer .table_timer .pairs {
       display: flex;
       justify-content: space-between; }
+      @media screen and (max-width: 477px) {
+        .only_timer .table_timer .pairs {
+          -webkit-transform: scale(0.7, 0.7);
+          -moz-transform: scale(0.7, 0.7);
+          -ms-transform: scale(0.7, 0.7);
+          -o-transform: scale(0.7, 0.7);
+          transform: scale(0.7, 0.7); } }
+      @media screen and (max-width: 400px) {
+        .only_timer .table_timer .pairs {
+          -webkit-transform: scale(0.5, 0.5);
+          -moz-transform: scale(0.5, 0.5);
+          -ms-transform: scale(0.5, 0.5);
+          -o-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5); } }
       .only_timer .table_timer .pairs .cell {
         display: flex;
         justify-content: center;
@@ -39,6 +69,17 @@
         background-origin: padding-box, padding-box;
         background-size: 60px 42px, 60px 42px;
         background-position: 0 40px, 0px 42px; }
+        @media screen and (max-width: 700px) {
+          .only_timer .table_timer .pairs .cell {
+            font-weight: 800;
+            font-size: 52.144px;
+            line-height: 68px;
+            background-size: 44px 23px, 44px 23px;
+            background-position: 0 23px, 0px 20px;
+            width: 44px;
+            height: 46px; } }
+        .only_timer .table_timer .pairs .cell:first-of-type {
+          margin-right: 7px; }
       .only_timer .table_timer .pairs .cell:first-child {
         margin-right: 7px; }
     .only_timer .table_timer .sign {

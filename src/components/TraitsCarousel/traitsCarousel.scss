@@ -14,11 +14,20 @@
       -o-transition: all .2s;
       transition: all .2s;
 
+      @media screen and(max-width: 992px){
+        max-width: 226px;
+
+      }
+
       .mc_avatar{
         width: 100%;
         max-width: 255px;
         height: auto;
         margin-bottom: 24px;
+        @media screen and(max-width: 992px){
+          max-width: 226px;
+
+        }
       }
 
       .mc_name{
@@ -26,6 +35,7 @@
         font-weight: normal;
         font-size: 30px;
         line-height: 35px;
+        text-align: center;
       }
 
       .mc_percent{

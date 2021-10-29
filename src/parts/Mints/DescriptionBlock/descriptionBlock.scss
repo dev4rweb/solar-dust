@@ -1,15 +1,20 @@
-.description_block{
+.description_block {
   position: relative;
   display: flex;
   justify-content: center;
 
-  .card{
+  .card {
     width: 100%;
     max-width: 1110px;
     background-color: transparent;
     margin-top: -250px;
-    .box_desc{
-      background-color: rgba(7,7,7,.7);
+    @media screen and(max-width: 1110px) {
+      max-width: none;
+      width: 90%;
+    }
+
+    .box_desc {
+      background-color: rgba(7, 7, 7, .7);
       border: 1px solid #222222;
       box-sizing: border-box;
       box-shadow: 0px 4px 20px #000000;
@@ -17,24 +22,37 @@
       display: flex;
       justify-content: space-between;
 
-      .avatar_wrapper{
-        position: relative;
+      @media screen and(max-width: 992px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 
-        .avatar{
+      .avatar_wrapper {
+        position: relative;
+        @media screen and(max-width: 992px) {
+          margin-bottom: 50px;
         }
 
-        .btn_wrapper{
+        .avatar {
+          max-width: 445px;
+          width: 100%;
+        }
+
+        .btn_wrapper {
           position: absolute;
           bottom: -50px;
           left: 0;
           right: 0;
           display: flex;
           justify-content: center;
+
+
         }
 
       }
 
-      .content{
+      .content {
         width: 100%;
         padding: 35px;
         background-color: black;
@@ -44,7 +62,7 @@
         flex-direction: column;
         justify-content: center;
 
-        .title_link{
+        .title_link {
           font-style: normal;
           font-weight: normal;
           font-size: 30px;
@@ -54,29 +72,36 @@
           margin-bottom: 22px;
         }
 
-        .desc{
+        .desc {
           font-style: normal;
           font-weight: normal;
           font-size: 20px;
           line-height: 26px;
         }
 
-        .list_desc{
+        .list_desc {
           margin-bottom: 0;
           padding-left: 0;
           list-style-type: none;
 
-          .list_item{
+          .list_item {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
 
-            span{
+            span {
               font-style: normal;
               font-weight: normal;
               font-size: 20px;
               line-height: 149.5%;
+
+              @media screen and(max-width: 768px){
+                font-size: 16px;
+                line-height: 24px;
+              }
             }
-            span.cyan{
+
+            span.cyan {
               color: #33F9ED;
             }
           }

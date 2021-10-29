@@ -6,7 +6,8 @@
     height: 166px;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    align-self: center; }
     .roadmap_carousel .carousel-container .mc_item .number {
       background: -webkit-linear-gradient(#AC0B0B 36.1%, #F97A33 63.73%);
       -webkit-background-clip: text;
@@ -19,7 +20,8 @@
     .roadmap_carousel .carousel-container .mc_item .content {
       width: 100%; }
       .roadmap_carousel .carousel-container .mc_item .content .title {
-        width: 415px;
+        width: 100%;
+        max-width: 415px;
         font-style: normal;
         font-weight: normal;
         font-size: 30px;

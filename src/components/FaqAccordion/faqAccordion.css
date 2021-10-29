@@ -4,6 +4,10 @@
   .faq_accordion .accordion {
     width: 100%;
     max-width: 1110px; }
+    @media screen and (max-width: 1110px) {
+      .faq_accordion .accordion {
+        max-width: none;
+        width: 90%; } }
     .faq_accordion .accordion .accordion-item {
       background-color: black;
       color: white; }
