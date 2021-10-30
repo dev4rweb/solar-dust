@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import './navigation.scss'
-import {Button, Nav, Offcanvas} from "react-bootstrap";
+import {Nav, Offcanvas} from "react-bootstrap";
 import {NavLink} from "react-router-dom";
-import {MINTS_PAGE, RARITIES_PAGE} from "../../utils/consts";
+import {POSTS_PAGE, RARITIES_PAGE} from "../../utils/consts";
 import mobMenu from '../../assets/img/mob-menu.png'
 
 const Navigation = () => {
@@ -39,10 +39,10 @@ const Navigation = () => {
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item as="li">
-                    <Nav.Link href={RARITIES_PAGE}>
+                    <NavLink className="nav-link" to={RARITIES_PAGE}>
                         <span>RARITY</span>
                         <hr className="underline"/>
-                    </Nav.Link>
+                    </NavLink>
                 </Nav.Item>
                 <Nav.Item as="li">
                     <Nav.Link href="/#news">
@@ -51,7 +51,7 @@ const Navigation = () => {
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item as="li">
-                    <NavLink to={MINTS_PAGE} className="nav-link">
+                    <NavLink to={POSTS_PAGE} className="nav-link">
                         <span>Mint</span>
                         <hr className="underline"/>
                     </NavLink>
@@ -137,7 +137,7 @@ const Navigation = () => {
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item as="li">
-                                <NavLink to={RARITIES_PAGE} className="nav-link">
+                                <NavLink to={POSTS_PAGE} className="nav-link">
                                     <span>Mint</span>
                                     <hr className="underline"/>
                                 </NavLink>

@@ -3,7 +3,7 @@ import './footer.scss'
 import logo from '../../assets/img/footer-logo.png'
 import {NavLink} from "react-router-dom";
 import Social from "../../components/Social/Social";
-import {HOME_PAGE, MINTS_PAGE, RARITIES_PAGE} from "../../utils/consts";
+import {HOME_PAGE, POSTS_PAGE, RARITIES_PAGE} from "../../utils/consts";
 import {useHistory} from 'react-router-dom'
 
 const Footer = () => {
@@ -25,7 +25,7 @@ const Footer = () => {
                         <li><NavLink to="/#roadmap">ROADMAP</NavLink></li>
                         <li><NavLink to={RARITIES_PAGE}>RARITY</NavLink></li>
                         <li><NavLink to="/#news">NEWS</NavLink></li>
-                        <li><NavLink to={RARITIES_PAGE}>MINT</NavLink></li>
+                        <li><NavLink to={POSTS_PAGE}>MINT</NavLink></li>
                     </ul>
                     <p className="desc">
                         Сollection of 10,000, your ticket to the game.
